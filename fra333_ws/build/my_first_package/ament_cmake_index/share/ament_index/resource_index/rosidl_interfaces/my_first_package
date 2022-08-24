@@ -1,0 +1,4 @@
+srv/SetGoal.idl
+srv/SetGoal.srv
+srv/SetGoal_Request.msg
+srv/SetGoal_Response.msg

@@ -1,0 +1,24 @@
+[100%] Built target cpp_node_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/environment/pythonpath.sh
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/__init__.py
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/lib/my_first_package/01_pub.py
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/lib/my_first_package/cpp_node_test
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/ament_index/resource_index/package_run_dependencies/my_first_package
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/ament_index/resource_index/parent_prefix_path/my_first_package
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/environment/path.sh
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/environment/path.dsv
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/local_setup.bash
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/local_setup.sh
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/local_setup.zsh
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/local_setup.dsv
+-- Symlinking: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/package.dsv
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/ament_index/resource_index/packages/my_first_package
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/package.xml
+Listing '/home/student26/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package'...

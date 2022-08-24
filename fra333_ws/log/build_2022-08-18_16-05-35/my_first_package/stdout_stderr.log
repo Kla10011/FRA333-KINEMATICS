@@ -1,0 +1,30 @@
+[  9%] Built target my_first_package__cpp
+[ 12%] Built target my_first_package__rosidl_generator_c
+[ 18%] Built target cpp_node_test
+[ 36%] Built target my_first_package__rosidl_typesupport_c
+[ 36%] Built target my_first_package__rosidl_typesupport_cpp
+[ 45%] Built target my_first_package__rosidl_typesupport_introspection_c
+[ 54%] Built target my_first_package__rosidl_typesupport_introspection_cpp
+[ 63%] Built target my_first_package__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target my_first_package__rosidl_typesupport_fastrtps_c
+[ 72%] Built target my_first_package
+[ 75%] Built target my_first_package__py
+[ 81%] Built target my_first_package__python
+[ 93%] Built target my_first_package__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target my_first_package__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target my_first_package__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/environment/pythonpath.sh
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/share/my_first_package/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/__init__.py
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/lib/my_first_package/01_pub.py
+-- Up-to-date symlink: /home/student26/fra333_ws/install/my_first_package/lib/my_first_package/01_sub.py
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/home/student26/fra333_ws/src/FRA333_Week2/scripts/02_contorller/py'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:41 (include)
+
+

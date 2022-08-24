@@ -1,0 +1,3 @@
+source;share/kla_01_package/environment/ament_prefix_path.sh
+source;share/kla_01_package/environment/path.sh
+source;share/kla_01_package/environment/pythonpath.sh

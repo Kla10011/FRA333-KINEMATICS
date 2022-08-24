@@ -1,0 +1,4 @@
+source;share/kla_01_package/local_setup.bash
+source;share/kla_01_package/local_setup.dsv
+source;share/kla_01_package/local_setup.sh
+source;share/kla_01_package/local_setup.zsh

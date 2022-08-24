@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/student26/ROS2_Directory/FRA333_Week2-main/install/my_first_package/include/**",
+        "/home/student26/ROS2_Directory/pbot_ws/install/xicro_interfaces/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/student26/fra333_ws/src/FRA333_Week2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

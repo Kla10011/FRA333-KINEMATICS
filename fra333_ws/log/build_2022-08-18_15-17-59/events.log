@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.000243] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.014999] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'cmake'}
+[0.015628] (my_first_package) Command: {'cmd': ['/usr/bin/cmake', '/home/student26/fra333_ws/src/FRA333_Week2', '-DCMAKE_INSTALL_PREFIX=/home/student26/fra333_ws/install/my_first_package'], 'cwd': '/home/student26/fra333_ws/build/my_first_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student26'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '1240'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student26/ROS2_Directory/pbot_ws/install/xicro_interfaces/lib:/home/student26/ROS2_Directory/FRA333_Week2-main/install/my_first_package/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/student26'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1044'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/student26/fra333_ws/install:/home/student26/ROS2_Directory/kla_ws/install:/home/student26/ROS2_Directory/pbot_ws/install:/home/student26/ROS2_Directory/FRA333_Week2-main/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'student26'), ('JOURNAL_STREAM', '8:32580'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'student26'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/student26/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/student26:@/tmp/.ICE-unix/1277,unix/student26:/tmp/.ICE-unix/1277'), ('INVOCATION_ID', '22a866184cc14bc5a9344451dad801f8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c8a0bd7_6707_4feb_a406_b0042823d56d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '26'), ('AMENT_PREFIX_PATH', '/home/student26/fra333_ws/install/my_first_package:/home/student26/ROS2_Directory/kla_ws/install/kla_01_package:/home/student26/ROS2_Directory/pbot_ws/install/xxx_gazebo:/home/student26/ROS2_Directory/pbot_ws/install/xxx_detection:/home/student26/ROS2_Directory/pbot_ws/install/xxx_description:/home/student26/ROS2_Directory/pbot_ws/install/xxx_control:/home/student26/ROS2_Directory/pbot_ws/install/xicro_pkg:/home/student26/ROS2_Directory/pbot_ws/install/xicro_interfaces:/home/student26/ROS2_Directory/pbot_ws/install/aruco_spawner:/home/student26/ROS2_Directory/pbot_ws/install/april_tag_spawner:/home/student26/ROS2_Directory/FRA333_Week2-main/install/my_first_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student26/fra333_ws/build/my_first_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student26/fra333_ws/install/my_first_package/lib/python3.8/site-packages:/home/student26/ROS2_Directory/kla_ws/install/kla_01_package/lib/python3.8/site-packages:/home/student26/ROS2_Directory/pbot_ws/install/xxx_detection/lib/python3.8/site-packages:/home/student26/ROS2_Directory/pbot_ws/install/xxx_control/lib/python3.8/site-packages:/home/student26/ROS2_Directory/pbot_ws/install/xicro_pkg/lib/python3.8/site-packages:/home/student26/ROS2_Directory/pbot_ws/install/xicro_interfaces/lib/python3.8/site-packages:/home/student26/ROS2_Directory/FRA333_Week2-main/install/my_first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/student26/fra333_ws/install/my_first_package:/home/student26/ROS2_Directory/kla_ws/install/kla_01_package:/home/student26/ROS2_Directory/pbot_ws/install/xxx_gazebo:/home/student26/ROS2_Directory/pbot_ws/install/xxx_detection:/home/student26/ROS2_Directory/pbot_ws/install/xxx_description:/home/student26/ROS2_Directory/pbot_ws/install/xxx_control:/home/student26/ROS2_Directory/pbot_ws/install/xicro_pkg:/home/student26/ROS2_Directory/pbot_ws/install/xicro_interfaces:/home/student26/ROS2_Directory/pbot_ws/install/aruco_spawner:/home/student26/ROS2_Directory/pbot_ws/install/april_tag_spawner:/home/student26/ROS2_Directory/FRA333_Week2-main/install/my_first_package')]), 'shell': False}
+[0.033742] (my_first_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.034200] (my_first_package) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.9 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[0.058724] (my_first_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.058957] (my_first_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099170] (-) TimerEvent: {}
+[0.199498] (-) TimerEvent: {}
+[0.217790] (my_first_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.221785] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.226493] (my_first_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299607] (-) TimerEvent: {}
+[0.359609] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.380509] (my_first_package) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.399687] (-) TimerEvent: {}
+[0.444078] (my_first_package) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.479136] (my_first_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.480948] (my_first_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499809] (-) TimerEvent: {}
+[0.600092] (-) TimerEvent: {}
+[0.606188] (my_first_package) StdoutLine: {'line': b'-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.634208] (my_first_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.700210] (-) TimerEvent: {}
+[0.755885] (my_first_package) StderrLine: {'line': b"Error parsing '/home/student26/fra333_ws/src/FRA333_Week2/package.xml':\n"}
+[0.800316] (-) TimerEvent: {}
+[0.858237] (my_first_package) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.858426] (my_first_package) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[0.858509] (my_first_package) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.858585] (my_first_package) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString\n'}
+[0.858659] (my_first_package) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.858731] (my_first_package) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.858806] (my_first_package) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.858877] (my_first_package) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.858948] (my_first_package) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.859017] (my_first_package) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 22, column 46\n'}
+[0.859088] (my_first_package) StderrLine: {'line': b'\n'}
+[0.859158] (my_first_package) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.859228] (my_first_package) StderrLine: {'line': b'\n'}
+[0.859298] (my_first_package) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.859375] (my_first_package) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[0.859439] (my_first_package) StderrLine: {'line': b'    main()\n'}
+[0.859501] (my_first_package) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[0.859567] (my_first_package) StderrLine: {'line': b'    raise e\n'}
+[0.859631] (my_first_package) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[0.859694] (my_first_package) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.859756] (my_first_package) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[0.859819] (my_first_package) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.859884] (my_first_package) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/student26/fra333_ws/src/FRA333_Week2/package.xml':\n"}
+[0.859946] (my_first_package) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.860009] (my_first_package) StderrLine: {'line': b'mismatched tag: line 22, column 46\n'}
+[0.880468] (my_first_package) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[0.880713] (my_first_package) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.880802] (my_first_package) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.880877] (my_first_package) StderrLine: {'line': b'  /home/student26/fra333_ws/src/FRA333_Week2/package.xml\n'}
+[0.880951] (my_first_package) StderrLine: {'line': b'  /home/student26/fra333_ws/build/my_first_package/ament_cmake_core/package.cmake)\n'}
+[0.881022] (my_first_package) StderrLine: {'line': b'  returned error code 1\n'}
+[0.881093] (my_first_package) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.881167] (my_first_package) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.881237] (my_first_package) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[0.881307] (my_first_package) StderrLine: {'line': b'  CMakeLists.txt:52 (rosidl_generate_interfaces)\n'}
+[0.881381] (my_first_package) StderrLine: {'line': b'\n'}
+[0.881451] (my_first_package) StderrLine: {'line': b'\n'}
+[0.882626] (my_first_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.882730] (my_first_package) StdoutLine: {'line': b'See also "/home/student26/fra333_ws/build/my_first_package/CMakeFiles/CMakeOutput.log".\n'}
+[0.882804] (my_first_package) StdoutLine: {'line': b'See also "/home/student26/fra333_ws/build/my_first_package/CMakeFiles/CMakeError.log".\n'}
+[0.891061] (my_first_package) CommandEnded: {'returncode': 1}
+[0.891973] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 1}
+[0.900594] (-) TimerEvent: {}
+[0.903413] (-) EventReactorShutdown: {}
