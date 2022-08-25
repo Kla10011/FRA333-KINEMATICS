@@ -1,0 +1,350 @@
+[0.000000] (-) TimerEvent: {}
+[0.000743] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.001206] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.017540] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'cmake'}
+[0.017980] (my_first_package) Command: {'cmd': ['/usr/bin/cmake', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/src/my_first_package', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package'], 'cwd': '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ronnakon'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '1939'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ronnakon'), ('OLDPWD', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1753'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=eed2233cbcb47599a94c5f906307169c'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ronnakon'), ('JOURNAL_STREAM', '8:52373'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'ronnakon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ronnakon:@/tmp/.ICE-unix/1989,unix/ronnakon:/tmp/.ICE-unix/1989'), ('INVOCATION_ID', 'd09c0c32224e4c46a5ec4c82a37ddbd4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d7bace8_0641_4b4e_8997_f3e9dba35be4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.303'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=eed2233cbcb47599a94c5f906307169c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099653] (-) TimerEvent: {}
+[0.200165] (-) TimerEvent: {}
+[0.237674] (my_first_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300306] (-) TimerEvent: {}
+[0.385442] (my_first_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.393319] (my_first_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400396] (-) TimerEvent: {}
+[0.486443] (my_first_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.488109] (my_first_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500574] (-) TimerEvent: {}
+[0.571118] (my_first_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.594624] (my_first_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.595161] (my_first_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.598308] (my_first_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.600625] (-) TimerEvent: {}
+[0.697908] (my_first_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.699026] (my_first_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700705] (-) TimerEvent: {}
+[0.801107] (-) TimerEvent: {}
+[0.804472] (my_first_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.822732] (my_first_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.823291] (my_first_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.826971] (my_first_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.829015] (my_first_package) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.9 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[0.858085] (my_first_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.858360] (my_first_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.901184] (-) TimerEvent: {}
+[1.001510] (-) TimerEvent: {}
+[1.081641] (my_first_package) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.092265] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101595] (-) TimerEvent: {}
+[1.106062] (my_first_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.201723] (-) TimerEvent: {}
+[1.302102] (-) TimerEvent: {}
+[1.322595] (my_first_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.355290] (my_first_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.402234] (-) TimerEvent: {}
+[1.458627] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.493672] (my_first_package) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.502326] (-) TimerEvent: {}
+[1.590936] (my_first_package) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.602428] (-) TimerEvent: {}
+[1.665305] (my_first_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.667610] (my_first_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.669535] (my_first_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.702567] (-) TimerEvent: {}
+[1.786659] (my_first_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.787085] (my_first_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.802691] (-) TimerEvent: {}
+[1.883570] (my_first_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.883996] (my_first_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.902816] (-) TimerEvent: {}
+[1.962471] (my_first_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.962841] (my_first_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.002953] (-) TimerEvent: {}
+[2.055267] (my_first_package) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.056429] (my_first_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.103068] (-) TimerEvent: {}
+[2.203473] (-) TimerEvent: {}
+[2.242145] (my_first_package) StdoutLine: {'line': b'-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[2.303618] (-) TimerEvent: {}
+[2.316974] (my_first_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.403742] (-) TimerEvent: {}
+[2.504137] (-) TimerEvent: {}
+[2.552696] (my_first_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.604266] (-) TimerEvent: {}
+[2.704683] (-) TimerEvent: {}
+[2.805104] (-) TimerEvent: {}
+[2.841773] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.905255] (-) TimerEvent: {}
+[2.973905] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.005397] (-) TimerEvent: {}
+[3.008096] (my_first_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.012219] (my_first_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.055320] (my_first_package) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.055646] (my_first_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.055764] (my_first_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.055875] (my_first_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.082808] (my_first_package) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.105484] (-) TimerEvent: {}
+[3.174795] (my_first_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.205640] (-) TimerEvent: {}
+[3.260347] (my_first_package) StdoutLine: {'line': b'-- Generating done\n'}
+[3.264307] (my_first_package) StdoutLine: {'line': b'-- Build files have been written to: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package\n'}
+[3.276643] (my_first_package) CommandEnded: {'returncode': 0}
+[3.278248] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'build'}
+[3.279978] (my_first_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package', '--', '-j4', '-l4'], 'cwd': '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ronnakon'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '1939'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ronnakon'), ('OLDPWD', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1753'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=eed2233cbcb47599a94c5f906307169c'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ronnakon'), ('JOURNAL_STREAM', '8:52373'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'ronnakon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ronnakon:@/tmp/.ICE-unix/1989,unix/ronnakon:/tmp/.ICE-unix/1989'), ('INVOCATION_ID', 'd09c0c32224e4c46a5ec4c82a37ddbd4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d7bace8_0641_4b4e_8997_f3e9dba35be4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.303'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=eed2233cbcb47599a94c5f906307169c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.305817] (-) TimerEvent: {}
+[3.339544] (my_first_package) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.339959] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_node_test\x1b[0m\n'}
+[3.343455] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__cpp\x1b[0m\n'}
+[3.354633] (my_first_package) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[3.360655] (my_first_package) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.405908] (-) TimerEvent: {}
+[3.506285] (-) TimerEvent: {}
+[3.606854] (-) TimerEvent: {}
+[3.707569] (-) TimerEvent: {}
+[3.789196] (my_first_package) StdoutLine: {'line': b'[  9%] \x1b[32m\x1b[1mLinking CXX executable cpp_node_test\x1b[0m\n'}
+[3.807686] (-) TimerEvent: {}
+[3.888169] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_generator_c\x1b[0m\n'}
+[3.907813] (-) TimerEvent: {}
+[3.917006] (my_first_package) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_first_package__rosidl_generator_c.dir/rosidl_generator_c/my_first_package/srv/detail/rand_goal__functions.c.o\x1b[0m\n'}
+[3.929376] (my_first_package) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_first_package__rosidl_generator_c.dir/rosidl_generator_c/my_first_package/srv/detail/set_goal__functions.c.o\x1b[0m\n'}
+[3.941497] (my_first_package) StdoutLine: {'line': b'[ 14%] Built target my_first_package__cpp\n'}
+[3.963274] (my_first_package) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.007928] (-) TimerEvent: {}
+[4.023870] (my_first_package) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.024230] (my_first_package) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libmy_first_package__rosidl_generator_c.so\x1b[0m\n'}
+[4.083907] (my_first_package) StdoutLine: {'line': b'[ 21%] Built target cpp_node_test\n'}
+[4.108056] (-) TimerEvent: {}
+[4.109185] (my_first_package) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.116148] (my_first_package) StdoutLine: {'line': b'[ 24%] Built target my_first_package__rosidl_generator_c\n'}
+[4.141511] (my_first_package) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.208196] (-) TimerEvent: {}
+[4.308576] (-) TimerEvent: {}
+[4.408941] (-) TimerEvent: {}
+[4.509293] (-) TimerEvent: {}
+[4.609653] (-) TimerEvent: {}
+[4.610127] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.650992] (my_first_package) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package/srv/detail/rand_goal__type_support.cpp.o\x1b[0m\n'}
+[4.664099] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_c\x1b[0m\n'}
+[4.664407] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.683662] (my_first_package) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package/srv/rand_goal__type_support.cpp.o\x1b[0m\n'}
+[4.685372] (my_first_package) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package/srv/rand_goal__type_support.cpp.o\x1b[0m\n'}
+[4.701104] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.709788] (-) TimerEvent: {}
+[4.731020] (my_first_package) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package/srv/set_goal__type_support.cpp.o\x1b[0m\n'}
+[4.741173] (my_first_package) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package/srv/detail/dds_fastrtps/rand_goal__type_support.cpp.o\x1b[0m\n'}
+[4.783778] (my_first_package) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.809928] (-) TimerEvent: {}
+[4.855617] (my_first_package) StdoutLine: {'line': b'[ 41%] Built target my_first_package__rosidl_typesupport_c\n'}
+[4.878690] (my_first_package) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package/srv/detail/dds_fastrtps/set_goal__type_support.cpp.o\x1b[0m\n'}
+[4.910081] (-) TimerEvent: {}
+[5.010601] (-) TimerEvent: {}
+[5.111052] (-) TimerEvent: {}
+[5.181814] (my_first_package) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package/srv/detail/set_goal__type_support.cpp.o\x1b[0m\n'}
+[5.211227] (-) TimerEvent: {}
+[5.211983] (my_first_package) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package/srv/set_goal__type_support.cpp.o\x1b[0m\n'}
+[5.311362] (-) TimerEvent: {}
+[5.411887] (-) TimerEvent: {}
+[5.517247] (-) TimerEvent: {}
+[5.565378] (my_first_package) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.617370] (-) TimerEvent: {}
+[5.687239] (my_first_package) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.717502] (-) TimerEvent: {}
+[5.722792] (my_first_package) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.745443] (my_first_package) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.817683] (-) TimerEvent: {}
+[5.830335] (my_first_package) StdoutLine: {'line': b'[ 58%] Built target my_first_package__rosidl_typesupport_cpp\n'}
+[5.873313] (my_first_package) StdoutLine: {'line': b'[ 58%] Built target my_first_package__rosidl_typesupport_introspection_cpp\n'}
+[5.893738] (my_first_package) StdoutLine: {'line': b'[ 58%] Built target my_first_package__rosidl_typesupport_fastrtps_cpp\n'}
+[5.907267] (my_first_package) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.917777] (-) TimerEvent: {}
+[6.018212] (-) TimerEvent: {}
+[6.035309] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.057058] (my_first_package) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/my_first_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package/srv/detail/rand_goal__type_support.c.o\x1b[0m\n'}
+[6.057377] (my_first_package) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/my_first_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package/srv/detail/set_goal__type_support.c.o\x1b[0m\n'}
+[6.112226] (my_first_package) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmy_first_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.118330] (-) TimerEvent: {}
+[6.153206] (my_first_package) StdoutLine: {'line': b'[ 68%] Built target my_first_package__rosidl_typesupport_introspection_c\n'}
+[6.218431] (-) TimerEvent: {}
+[6.286331] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.318594] (-) TimerEvent: {}
+[6.325450] (my_first_package) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package/srv/detail/rand_goal__type_support_c.cpp.o\x1b[0m\n'}
+[6.331142] (my_first_package) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/my_first_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package/srv/detail/set_goal__type_support_c.cpp.o\x1b[0m\n'}
+[6.418717] (-) TimerEvent: {}
+[6.519142] (-) TimerEvent: {}
+[6.619630] (-) TimerEvent: {}
+[6.720019] (-) TimerEvent: {}
+[6.820418] (-) TimerEvent: {}
+[6.846415] (my_first_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libmy_first_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.920592] (-) TimerEvent: {}
+[6.982010] (my_first_package) StdoutLine: {'line': b'[ 75%] Built target my_first_package__rosidl_typesupport_fastrtps_c\n'}
+[6.998824] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package\x1b[0m\n'}
+[7.015950] (my_first_package) StdoutLine: {'line': b'[ 75%] Built target my_first_package\n'}
+[7.020707] (-) TimerEvent: {}
+[7.033124] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__py\x1b[0m\n'}
+[7.044634] (my_first_package) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.120816] (-) TimerEvent: {}
+[7.221212] (-) TimerEvent: {}
+[7.321608] (-) TimerEvent: {}
+[7.422033] (-) TimerEvent: {}
+[7.522453] (-) TimerEvent: {}
+[7.622868] (-) TimerEvent: {}
+[7.723293] (-) TimerEvent: {}
+[7.823714] (-) TimerEvent: {}
+[7.836622] (my_first_package) StdoutLine: {'line': b'[ 78%] Built target my_first_package__py\n'}
+[7.853667] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__python\x1b[0m\n'}
+[7.900832] (my_first_package) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/my_first_package__python.dir/rosidl_generator_py/my_first_package/srv/_rand_goal_s.c.o\x1b[0m\n'}
+[7.904817] (my_first_package) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_first_package__python.dir/rosidl_generator_py/my_first_package/srv/_set_goal_s.c.o\x1b[0m\n'}
+[7.923853] (-) TimerEvent: {}
+[8.024275] (-) TimerEvent: {}
+[8.046203] (my_first_package) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_package/libmy_first_package__python.so\x1b[0m\n'}
+[8.112866] (my_first_package) StdoutLine: {'line': b'[ 85%] Built target my_first_package__python\n'}
+[8.124419] (-) TimerEvent: {}
+[8.126946] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.130307] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.131707] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_first_package__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.156207] (my_first_package) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_first_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_first_package/_my_first_package_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.162909] (my_first_package) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_first_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_first_package/_my_first_package_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.163246] (my_first_package) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_first_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_first_package/_my_first_package_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.224554] (-) TimerEvent: {}
+[8.276497] (my_first_package) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_package/my_first_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.324690] (-) TimerEvent: {}
+[8.333373] (my_first_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_first_package/my_first_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.333735] (my_first_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_first_package/my_first_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.333896] (my_first_package) StdoutLine: {'line': b'[100%] Built target my_first_package__rosidl_typesupport_c__pyext\n'}
+[8.394666] (my_first_package) StdoutLine: {'line': b'[100%] Built target my_first_package__rosidl_typesupport_introspection_c__pyext\n'}
+[8.418027] (my_first_package) StdoutLine: {'line': b'[100%] Built target my_first_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.424807] (-) TimerEvent: {}
+[8.436499] (my_first_package) CommandEnded: {'returncode': 0}
+[8.518173] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'install'}
+[8.525007] (-) TimerEvent: {}
+[8.539270] (my_first_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package'], 'cwd': '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ronnakon'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '1939'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ronnakon'), ('OLDPWD', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1753'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=eed2233cbcb47599a94c5f906307169c'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ronnakon'), ('JOURNAL_STREAM', '8:52373'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'ronnakon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ronnakon:@/tmp/.ICE-unix/1989,unix/ronnakon:/tmp/.ICE-unix/1989'), ('INVOCATION_ID', 'd09c0c32224e4c46a5ec4c82a37ddbd4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1d7bace8_0641_4b4e_8997_f3e9dba35be4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.303'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=eed2233cbcb47599a94c5f906307169c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.552734] (my_first_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.553532] (my_first_package) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.565882] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/pythonpath.sh\n'}
+[8.582359] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/pythonpath.dsv\n'}
+[8.593976] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/__init__.py\n'}
+[8.609965] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/01_pub.py\n'}
+[8.619585] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/01_sub.py\n'}
+[8.625097] (-) TimerEvent: {}
+[8.629388] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/02_controller.py\n'}
+[8.644108] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/02_scheduler.py\n'}
+[8.653941] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/03_turtle_tf2_broadcaster.py\n'}
+[8.666820] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/04_state_pub.py\n'}
+[8.681567] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/cpp_node_test\n'}
+[8.697071] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/rosidl_interfaces/my_first_package\n'}
+[8.707970] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.717941] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__functions.h\n'}
+[8.725226] (-) TimerEvent: {}
+[8.727751] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__struct.h\n'}
+[8.737387] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__type_support.h\n'}
+[8.746869] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__functions.h\n'}
+[8.771037] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__struct.h\n'}
+[8.787046] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__type_support.h\n'}
+[8.800837] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/rand_goal.h\n'}
+[8.810669] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/set_goal.h\n'}
+[8.820601] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/library_path.sh\n'}
+[8.825351] (-) TimerEvent: {}
+[8.830444] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/library_path.dsv\n'}
+[8.841201] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.850832] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__rosidl_typesupport_fastrtps_c.h\n'}
+[8.861744] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__rosidl_typesupport_fastrtps_c.h\n'}
+[8.873047] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_fastrtps_c.so\n'}
+[8.883935] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.894204] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.907084] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.918324] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.925462] (-) TimerEvent: {}
+[8.929710] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.942282] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__rosidl_typesupport_introspection_c.h\n'}
+[8.953951] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__rosidl_typesupport_introspection_c.h\n'}
+[8.966280] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__builder.hpp\n'}
+[8.976978] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__struct.hpp\n'}
+[8.987383] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__traits.hpp\n'}
+[8.998230] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__builder.hpp\n'}
+[9.009465] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__struct.hpp\n'}
+[9.020154] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__traits.hpp\n'}
+[9.025574] (-) TimerEvent: {}
+[9.030875] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/rand_goal.hpp\n'}
+[9.041587] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/set_goal.hpp\n'}
+[9.053490] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.064356] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.075477] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/__init__.py\n'}
+[9.091130] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/__init__.py\n'}
+[9.101689] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/_rand_goal.py\n'}
+[9.112927] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/_set_goal.py\n'}
+[9.124101] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/my_first_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.125643] (-) TimerEvent: {}
+[9.148182] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/my_first_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.165345] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/my_first_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.178708] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__python.so\n'}
+[9.191473] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/RandGoal.idl\n'}
+[9.202783] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal.idl\n'}
+[9.214016] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/RandGoal.srv\n'}
+[9.225770] (-) TimerEvent: {}
+[9.226113] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/RandGoal_Request.msg\n'}
+[9.236723] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/RandGoal_Response.msg\n'}
+[9.247477] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal.srv\n'}
+[9.258592] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal_Request.msg\n'}
+[9.269704] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal_Response.msg\n'}
+[9.281394] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/launch/02_via_point_follower.launch.py\n'}
+[9.292085] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/launch/04_robot_state_publisher.launch.py\n'}
+[9.303212] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/urdf/myrobot.xml\n'}
+[9.314019] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/urdf/r2d2.urdf.xml\n'}
+[9.325203] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/rviz/r2d2.rviz\n'}
+[9.325852] (-) TimerEvent: {}
+[9.336381] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/package_run_dependencies/my_first_package\n'}
+[9.347624] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/parent_prefix_path/my_first_package\n'}
+[9.362906] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.sh\n'}
+[9.373927] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.dsv\n'}
+[9.384690] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/path.sh\n'}
+[9.395350] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/path.dsv\n'}
+[9.406110] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/local_setup.bash\n'}
+[9.417465] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/local_setup.sh\n'}
+[9.425993] (-) TimerEvent: {}
+[9.429492] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/local_setup.zsh\n'}
+[9.440693] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/local_setup.dsv\n'}
+[9.453688] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/package.dsv\n'}
+[9.466390] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/packages/my_first_package\n'}
+[9.477476] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/rosidl_cmake-extras.cmake\n'}
+[9.488239] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.498973] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.509779] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.520460] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.526105] (-) TimerEvent: {}
+[9.531488] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.543860] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.556037] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake\n'}
+[9.566430] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake\n'}
+[9.577445] (my_first_package) StdoutLine: {'line': b'-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/package.xml\n'}
+[9.626223] (-) TimerEvent: {}
+[9.648791] (my_first_package) StdoutLine: {'line': b"Listing '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package'...\n"}
+[9.649066] (my_first_package) StdoutLine: {'line': b"Compiling '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/__init__.py'...\n"}
+[9.649191] (my_first_package) StdoutLine: {'line': b"Listing '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv'...\n"}
+[9.649333] (my_first_package) StdoutLine: {'line': b"Compiling '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/__init__.py'...\n"}
+[9.649450] (my_first_package) StdoutLine: {'line': b"Compiling '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/_rand_goal.py'...\n"}
+[9.649566] (my_first_package) StdoutLine: {'line': b"Compiling '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/_set_goal.py'...\n"}
+[9.654990] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_generator_c.so\n'}
+[9.655529] (my_first_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_generator_c.so" to ""\n'}
+[9.655803] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_introspection_c.so\n'}
+[9.656032] (my_first_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.656232] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_c.so\n'}
+[9.656534] (my_first_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_c.so" to ""\n'}
+[9.656740] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_introspection_cpp.so\n'}
+[9.657094] (my_first_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.657335] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_cpp.so\n'}
+[9.657600] (my_first_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_cpp.so" to ""\n'}
+[9.701676] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_generator_cExport.cmake\n'}
+[9.702042] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.702621] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.703040] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.703599] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_cExport.cmake\n'}
+[9.703994] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.704508] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_generator_cppExport.cmake\n'}
+[9.705074] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.705500] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.706035] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_cppExport.cmake\n'}
+[9.706471] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.710905] (my_first_package) CommandEnded: {'returncode': 0}
+[9.726376] (-) TimerEvent: {}
+[9.826941] (-) TimerEvent: {}
+[9.845167] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 0}
+[9.846734] (-) EventReactorShutdown: {}
