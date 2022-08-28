@@ -1,0 +1,127 @@
+[0.014s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package -- -j12 -l12
+[0.055s] [  2%] Built target my_first_package__cpp
+[0.060s] [  7%] Built target cpp_node_test
+[0.063s] [ 17%] Built target my_first_package__rosidl_generator_c
+[0.072s] [ 26%] Built target my_first_package__rosidl_typesupport_introspection_cpp
+[0.075s] [ 36%] Built target my_first_package__rosidl_typesupport_cpp
+[0.078s] [ 46%] Built target my_first_package__rosidl_typesupport_fastrtps_cpp
+[0.082s] [ 56%] Built target my_first_package__rosidl_typesupport_c
+[0.083s] [ 65%] Built target my_first_package__rosidl_typesupport_introspection_c
+[0.105s] [ 75%] Built target my_first_package__rosidl_typesupport_fastrtps_c
+[0.126s] [ 75%] Built target my_first_package
+[0.147s] [ 78%] Built target my_first_package__py
+[0.173s] [ 85%] Built target my_first_package__python
+[0.197s] [ 90%] Built target my_first_package__rosidl_typesupport_fastrtps_c__pyext
+[0.201s] [ 95%] Built target my_first_package__rosidl_typesupport_introspection_c__pyext
+[0.205s] [100%] Built target my_first_package__rosidl_typesupport_c__pyext
+[0.217s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package -- -j12 -l12
+[0.267s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package
+[0.278s] -- Install configuration: ""
+[0.279s] -- Execute custom install script
+[0.279s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/pythonpath.sh
+[0.280s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/pythonpath.dsv
+[0.281s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/__init__.py
+[0.290s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/01_pub.py
+[0.290s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/01_sub.py
+[0.290s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/02_controller.py
+[0.291s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/02_scheduler.py
+[0.291s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/03_turtle_tf2_broadcaster.py
+[0.291s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/04_state_pub.py
+[0.291s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/my_first_package/cpp_node_test
+[0.292s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/rosidl_interfaces/my_first_package
+[0.292s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/msg/rosidl_generator_c__visibility_control.h
+[0.293s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__functions.h
+[0.293s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__struct.h
+[0.293s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__type_support.h
+[0.293s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__functions.h
+[0.293s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__struct.h
+[0.293s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__type_support.h
+[0.294s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/rand_goal.h
+[0.294s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/set_goal.h
+[0.294s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/library_path.sh
+[0.294s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/library_path.dsv
+[0.295s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.295s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__rosidl_typesupport_fastrtps_c.h
+[0.296s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__rosidl_typesupport_fastrtps_c.h
+[0.296s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_fastrtps_c.so
+[0.297s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.297s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[0.297s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[0.298s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_fastrtps_cpp.so
+[0.298s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.298s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__rosidl_typesupport_introspection_c.h
+[0.298s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__rosidl_typesupport_introspection_c.h
+[0.299s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__builder.hpp
+[0.299s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__struct.hpp
+[0.299s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__traits.hpp
+[0.300s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__builder.hpp
+[0.300s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__struct.hpp
+[0.300s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__traits.hpp
+[0.300s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/rand_goal.hpp
+[0.300s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/set_goal.hpp
+[0.301s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/rand_goal__rosidl_typesupport_introspection_cpp.hpp
+[0.301s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/include/my_first_package/srv/detail/set_goal__rosidl_typesupport_introspection_cpp.hpp
+[0.301s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/__init__.py
+[0.310s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/__init__.py
+[0.310s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/_rand_goal.py
+[0.310s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv/_set_goal.py
+[0.310s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/my_first_package_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.311s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/my_first_package_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.311s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/my_first_package_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.311s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__python.so
+[0.311s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/RandGoal.idl
+[0.312s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal.idl
+[0.312s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/RandGoal.srv
+[0.312s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/RandGoal_Request.msg
+[0.312s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/RandGoal_Response.msg
+[0.313s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal.srv
+[0.313s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal_Request.msg
+[0.313s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal_Response.msg
+[0.314s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/launch/02_via_point_follower.launch.py
+[0.314s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/launch/04_robot_state_publisher.launch.py
+[0.314s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/launch/06_myrobot_state_publisher.launch .py
+[0.314s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/urdf/myrobot.urdf.xml
+[0.315s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/urdf/r2d2.urdf.xml
+[0.315s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/urdf/test.urdf.xml
+[0.326s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/rviz/r2d2.rviz
+[0.326s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/package_run_dependencies/my_first_package
+[0.326s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/parent_prefix_path/my_first_package
+[0.327s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.sh
+[0.327s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.dsv
+[0.327s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/path.sh
+[0.327s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/environment/path.dsv
+[0.327s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/local_setup.bash
+[0.328s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/local_setup.sh
+[0.328s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/local_setup.zsh
+[0.328s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/local_setup.dsv
+[0.328s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/package.dsv
+[0.339s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/packages/my_first_package
+[0.339s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/rosidl_cmake-extras.cmake
+[0.340s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.340s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/ament_cmake_export_libraries-extras.cmake
+[0.340s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/ament_cmake_export_targets-extras.cmake
+[0.341s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.341s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.341s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.342s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake
+[0.342s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake
+[0.342s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/package.xml
+[0.362s] Listing '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package'...
+[0.362s] Listing '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/python3.8/site-packages/my_first_package/srv'...
+[0.365s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_generator_c.so
+[0.365s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_introspection_c.so
+[0.366s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_c.so
+[0.367s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_introspection_cpp.so
+[0.367s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/lib/libmy_first_package__rosidl_typesupport_cpp.so
+[0.394s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_generator_cExport.cmake
+[0.395s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_generator_cExport-noconfig.cmake
+[0.395s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_introspection_cExport.cmake
+[0.395s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.395s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_cExport.cmake
+[0.395s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_cExport-noconfig.cmake
+[0.396s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_generator_cppExport.cmake
+[0.396s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_introspection_cppExport.cmake
+[0.396s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.396s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_cppExport.cmake
+[0.396s] -- Up-to-date: /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/cmake/my_first_package__rosidl_typesupport_cppExport-noconfig.cmake
+[0.400s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package

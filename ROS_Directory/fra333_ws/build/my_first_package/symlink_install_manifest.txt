@@ -59,8 +59,10 @@
 /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/srv/SetGoal_Response.msg
 /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/launch/02_via_point_follower.launch.py
 /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/launch/04_robot_state_publisher.launch.py
+/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/launch/06_myrobot_state_publisher.launch .py
 /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/urdf/myrobot.urdf.xml
 /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/urdf/r2d2.urdf.xml
+/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/urdf/test.urdf.xml
 /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/my_first_package/rviz/r2d2.rviz
 /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/package_run_dependencies/my_first_package
 /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install/my_first_package/share/ament_index/resource_index/parent_prefix_path/my_first_package
