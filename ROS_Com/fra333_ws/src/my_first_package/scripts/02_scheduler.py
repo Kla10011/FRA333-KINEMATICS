@@ -6,7 +6,7 @@ from rclpy.node import Node
 from geometry_msgs.msg import Point
 
 from std_srvs.srv import Empty
-from turtlesim_interfaces.srv import RandGoal, SetGoal
+from my_first_package.srv import RandGoal, SetGoal
 
 class Scheduler(Node):
     def __init__(self):

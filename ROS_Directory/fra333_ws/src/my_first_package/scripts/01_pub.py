@@ -8,9 +8,9 @@ from std_msgs.msg import String
 class Dummy(Node):
     def __init__(self):
         super().__init__('node_name')
-        self.msg_publisher = self.create_publisher(String,'/turtle1/msg',10)
+        self.msg_publisher = self.create_publisher(String,'/turtle1/msg',10)        #(type,'topic',unknow)
         self.cmd_publisher = self.create_publisher(Twist,'/turtle1/cmd_vel',10)
-        self.timer = self.create_timer(0.1,self.timer_calback)
+        self.timer = self.create_timer(0.1,self.timer_calback)                      #(time(s),funtion) เรียกทุกกี่วิ
     def timer_calback(self):
         msg = Twist()
         msg.linear.x = 1.0
