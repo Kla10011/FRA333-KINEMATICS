@@ -1,0 +1,12 @@
+week2
+sudo apt install python3-colcon-common-extensions
+code 01_pub.py
+ros2 run my_first_package 01_pub.py 
+sudo chmod 777 *
+ros2 topic list
+ros2 topic echo /turtle1/msg
+
+week3
+colcon build --symlink-install
+ros2 launch my_first_package 04_robot_state_publisher.launch.py
+rviz2
