@@ -36,8 +36,8 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  # add your services here  
-  # "srv/RandGoal.srv"
+  #add your services here  
+   "srv/SetNoise.srv"
   
   DEPENDENCIES std_msgs
 )
