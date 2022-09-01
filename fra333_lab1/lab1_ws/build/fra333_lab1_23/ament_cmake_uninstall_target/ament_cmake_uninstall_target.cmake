@@ -55,3 +55,6 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+
+# uninstall files installed using the symlink install functions
+include("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

@@ -1,3 +1,1 @@
-source;share/fra333_lab1_23/environment/ament_prefix_path.sh
-source;share/fra333_lab1_23/environment/path.sh
-source;share/fra333_lab1_23/environment/pythonpath.sh
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/local_setup.dsv
