@@ -1,5 +1,6 @@
 <robot name="myrobot">
 
+
   <link name="body"> 
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -7,31 +8,15 @@
         <cylinder radius="0.1" length="0.5" /> 
       </geometry>
     </visual>
-
   </link> 
 
   <link name="head">
-    <!-- <inertial>
-      <mass value="1"/>
-      <inertia ixx="1e-3" ixy="0" ixz="0" iyy="1e-3" iyz="0" izz="1e-3" />
-      <origin/>
-    </inertial> -->
-
     <visual>
       <origin xyz="0 0 0.1" rpy="0 0 0" />
       <geometry>
         <sphere radius=".3" />
       </geometry>
     </visual>
-
-    <!-- <collision>
-      <origin/>
-      <geometry>
-        <sphere radius=".4" />
-      </geometry>
-      <contact_coefficients mu="0" kp="1000.0" kd="1.0"/>
-    </collision>
-     -->
   </link>
 
   <joint name="headtobody" type="fixed">
@@ -39,4 +24,9 @@
     <parent link="body"/>
     <child link="head"/>
   </joint>
+
+
+
+
+
 </robot>
