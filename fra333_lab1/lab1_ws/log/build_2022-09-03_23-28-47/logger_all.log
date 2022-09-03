@@ -1,0 +1,335 @@
+[0.142s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.142s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa219121940>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa219121940>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa219121eb0>)
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.173s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/doc/pic) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/fra333_lab1_23) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fra333_lab1_23' with type 'ros.ament_cmake' and name 'fra333_lab1_23'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab1' with type 'ros.ament_cmake' and name 'lab1'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_interfaces) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab1_interfaces' with type 'ros.ament_cmake' and name 'lab1_interfaces'
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.189s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'fra333_lab1_23' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'fra333_lab1_23' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23', 'merge_install': False, 'path': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23', 'symlink_install': True, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'lab1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1', 'merge_install': False, 'path': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1', 'symlink_install': True, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'lab1_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'lab1_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces', 'merge_install': False, 'path': '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.275s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23'
+[0.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1' with build type 'ament_cmake'
+[0.293s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1'
+[0.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.299s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1_interfaces' with build type 'ament_cmake'
+[0.299s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1_interfaces'
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces
+[0.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1 -- -j12 -l12
+[0.926s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23
+[0.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23 -- -j12 -l12
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1 -- -j12 -l12
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1
+[1.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1)
+[1.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1' for CMake module files
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1' for CMake config files
+[1.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'cmake_prefix_path')
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/cmake_prefix_path.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/cmake_prefix_path.dsv'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/cmake_prefix_path.sh'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/lib'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/bin'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/lib/pkgconfig/lab1.pc'
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/lib/python3.8/site-packages'
+[1.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'pythonpath')
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/pythonpath.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/pythonpath.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/pythonpath.sh'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/bin'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.ps1'
+[1.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.sh'
+[1.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.bash'
+[1.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.zsh'
+[1.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/colcon-core/packages/lab1)
+[1.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1)
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1' for CMake module files
+[1.203s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1' for CMake config files
+[1.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'cmake_prefix_path')
+[1.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/cmake_prefix_path.ps1'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/cmake_prefix_path.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/cmake_prefix_path.sh'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/lib'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/bin'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/lib/pkgconfig/lab1.pc'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/lib/python3.8/site-packages'
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1', 'pythonpath')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/pythonpath.ps1'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/pythonpath.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/hook/pythonpath.sh'
+[1.209s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/bin'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.sh'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.bash'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/lab1/package.zsh'
+[1.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1/share/colcon-core/packages/lab1)
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/lab1_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces
+[1.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces -- -j12 -l12
+[1.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23 -- -j12 -l12
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23
+[1.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra333_lab1_23)
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23' for CMake module files
+[1.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23' for CMake config files
+[1.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra333_lab1_23', 'cmake_prefix_path')
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/cmake_prefix_path.ps1'
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/cmake_prefix_path.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/cmake_prefix_path.sh'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/bin'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/pkgconfig/fra333_lab1_23.pc'
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/python3.8/site-packages'
+[1.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra333_lab1_23', 'pythonpath')
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/pythonpath.ps1'
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/pythonpath.dsv'
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/pythonpath.sh'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/bin'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.ps1'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.sh'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.bash'
+[1.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.zsh'
+[1.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/colcon-core/packages/fra333_lab1_23)
+[1.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fra333_lab1_23)
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23' for CMake module files
+[1.456s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23' for CMake config files
+[1.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra333_lab1_23', 'cmake_prefix_path')
+[1.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/cmake_prefix_path.ps1'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/cmake_prefix_path.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/cmake_prefix_path.sh'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/bin'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/pkgconfig/fra333_lab1_23.pc'
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/python3.8/site-packages'
+[1.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('fra333_lab1_23', 'pythonpath')
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/pythonpath.ps1'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/pythonpath.dsv'
+[1.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/hook/pythonpath.sh'
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/bin'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.dsv'
+[1.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.bash'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.zsh'
+[1.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/colcon-core/packages/fra333_lab1_23)
+[3.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces -- -j12 -l12
+[3.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces
+[4.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1_interfaces)
+[4.135s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces' for CMake module files
+[4.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces
+[4.136s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces' for CMake config files
+[4.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_interfaces', 'cmake_prefix_path')
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/cmake_prefix_path.ps1'
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/cmake_prefix_path.dsv'
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/cmake_prefix_path.sh'
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/lib'
+[4.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_interfaces', 'ld_library_path_lib')
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/ld_library_path_lib.ps1'
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/ld_library_path_lib.dsv'
+[4.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/ld_library_path_lib.sh'
+[4.145s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/bin'
+[4.145s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/lib/pkgconfig/lab1_interfaces.pc'
+[4.145s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/lib/python3.8/site-packages'
+[4.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_interfaces', 'pythonpath')
+[4.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/pythonpath.ps1'
+[4.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/pythonpath.dsv'
+[4.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/pythonpath.sh'
+[4.147s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/bin'
+[4.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.ps1'
+[4.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.dsv'
+[4.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.sh'
+[4.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.bash'
+[4.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.zsh'
+[4.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/colcon-core/packages/lab1_interfaces)
+[4.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1_interfaces)
+[4.198s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces' for CMake module files
+[4.198s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces' for CMake config files
+[4.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_interfaces', 'cmake_prefix_path')
+[4.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/cmake_prefix_path.ps1'
+[4.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/cmake_prefix_path.dsv'
+[4.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/cmake_prefix_path.sh'
+[4.202s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/lib'
+[4.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_interfaces', 'ld_library_path_lib')
+[4.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/ld_library_path_lib.ps1'
+[4.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/ld_library_path_lib.dsv'
+[4.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/ld_library_path_lib.sh'
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/bin'
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/lib/pkgconfig/lab1_interfaces.pc'
+[4.204s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/lib/python3.8/site-packages'
+[4.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_interfaces', 'pythonpath')
+[4.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/pythonpath.ps1'
+[4.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/pythonpath.dsv'
+[4.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/hook/pythonpath.sh'
+[4.207s] Level 1:colcon.colcon_core.environment:checking '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/bin'
+[4.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.ps1'
+[4.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.dsv'
+[4.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.sh'
+[4.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.bash'
+[4.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/lab1_interfaces/package.zsh'
+[4.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/lab1_interfaces/share/colcon-core/packages/lab1_interfaces)
+[4.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.210s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.211s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.216s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.216s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.216s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.233s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.234s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/local_setup.ps1'
+[4.236s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/_local_setup_util_ps1.py'
+[4.238s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/setup.ps1'
+[4.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/local_setup.sh'
+[4.241s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/_local_setup_util_sh.py'
+[4.242s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/setup.sh'
+[4.245s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/local_setup.bash'
+[4.246s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/setup.bash'
+[4.247s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/local_setup.zsh'
+[4.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/setup.zsh'

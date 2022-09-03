@@ -1,4 +1,1 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(lab1_interfaces_IDL_FILES "srv/SetNoise.idl")
-set(lab1_interfaces_INTERFACE_FILES "srv/SetNoise.srv;srv/SetNoise_Request.msg;srv/SetNoise_Response.msg")
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake
