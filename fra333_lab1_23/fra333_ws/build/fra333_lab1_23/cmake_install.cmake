@@ -38,15 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23/environment" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/pythonpath.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23/environment" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/pythonpath.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/fra333_lab1_23" TYPE DIRECTORY FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23/fra333_lab1_23/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  include("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -55,93 +47,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
         "/usr/bin/python3" "-m" "compileall"
         "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23"
       )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23" TYPE PROGRAM FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23/scripts/dummy_script.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23/cpp_node_test" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23/cpp_node_test")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23/cpp_node_test"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23" TYPE EXECUTABLE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/cpp_node_test")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23/cpp_node_test" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23/cpp_node_test")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23/cpp_node_test"
-         OLD_RPATH "/opt/ros/foxy/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fra333_lab1_23/cpp_node_test")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23" TYPE DIRECTORY FILES "")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fra333_lab1_23")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fra333_lab1_23")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23/environment" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23/environment" TYPE FILE FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23/environment" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_index/share/ament_index/resource_index/packages/fra333_lab1_23")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23/cmake" TYPE FILE FILES
-    "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_core/fra333_lab1_23Config.cmake"
-    "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_core/fra333_lab1_23Config-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fra333_lab1_23" TYPE FILE FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

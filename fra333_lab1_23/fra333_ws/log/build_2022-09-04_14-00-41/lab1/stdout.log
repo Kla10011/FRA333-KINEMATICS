@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/environment/pythonpath.sh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/environment/pythonpath.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/lib/python3.8/site-packages/lab1/__init__.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/ament_index/resource_index/package_run_dependencies/lab1
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/ament_index/resource_index/parent_prefix_path/lab1
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/environment/ament_prefix_path.sh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/environment/path.sh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/environment/path.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/local_setup.bash
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/local_setup.sh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/local_setup.zsh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/local_setup.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/package.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/ament_index/resource_index/packages/lab1
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/cmake/lab1Config.cmake
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/cmake/lab1Config-version.cmake
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/share/lab1/package.xml
+Listing '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/lib/python3.8/site-packages/lab1'...
+Compiling '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1/lib/python3.8/site-packages/lab1/__init__.py'...

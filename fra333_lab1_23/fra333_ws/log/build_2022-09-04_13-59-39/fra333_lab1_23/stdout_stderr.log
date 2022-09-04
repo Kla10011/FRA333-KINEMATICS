@@ -1,0 +1,39 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23
+[ 50%] [32m[1mLinking CXX executable cpp_node_test[0m
+[100%] Built target cpp_node_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/pythonpath.sh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/pythonpath.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23/__init__.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23/dummy_module.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/fra333_lab1_23/dummy_script.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/fra333_lab1_23/cpp_node_test
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/ament_index/resource_index/package_run_dependencies/fra333_lab1_23
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/ament_index/resource_index/parent_prefix_path/fra333_lab1_23
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/ament_prefix_path.sh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/path.sh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/path.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/local_setup.bash
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/local_setup.sh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/local_setup.zsh
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/local_setup.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/ament_index/resource_index/packages/fra333_lab1_23
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/cmake/fra333_lab1_23Config.cmake
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/cmake/fra333_lab1_23Config-version.cmake
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.xml
+Listing '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23'...
