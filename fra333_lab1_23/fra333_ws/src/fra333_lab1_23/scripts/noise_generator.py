@@ -38,19 +38,17 @@ class NoiseGenerator(Node):
     def timer_callback(self):
         noise = Float64()
         mu, sigma = 0, 0.1                          # mean and standard deviation 
-        noise = np.random.normal(mu, sigma, 1000)   # จำนวน random
+        noise = np.random.normal(mu, sigma**0.5)   # จำนวน random
         self.noise.publish(noise)
         
 
 def main(args=None):
-    # remove pass and add codes here
-    # what is .init,.spin,.shutdown
-    rclpy.init(args=args)           #  
-    NoiseGen = NoiseGenerator()         
-    print('hello')
-    rclpy.spin(NoiseGen)            #run loot       
-    NoiseGen.destroy_node()             
-    rclpy.shutdown()                #
+    rclpy.init(args=args)
+    controller = NoiseGenerator()
+    print('start')
+    rclpy.spin(controller)
+    controller.destroy_node()
+    rclpy.shutdown()            #
     
 
 if __name__=='__main__':
