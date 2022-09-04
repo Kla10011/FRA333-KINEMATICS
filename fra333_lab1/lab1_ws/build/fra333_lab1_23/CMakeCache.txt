@@ -340,6 +340,9 @@ fra333_lab1_23_BINARY_DIR:STATIC=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/la
 //Value Computed by CMake
 fra333_lab1_23_SOURCE_DIR:STATIC=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/foxy/share/geometry_msgs/cmake
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cmake
 

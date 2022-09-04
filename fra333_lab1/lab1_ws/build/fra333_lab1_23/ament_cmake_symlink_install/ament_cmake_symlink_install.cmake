@@ -319,14 +319,14 @@ ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/
 # install(DIRECTORY "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23/fra333_lab1_23/" "DESTINATION" "lib/python3.8/site-packages/fra333_lab1_23" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23" DIRECTORY "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23/fra333_lab1_23/" "DESTINATION" "lib/python3.8/site-packages/fra333_lab1_23" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/dummy_script.py" "DESTINATION" "lib/fra333_lab1_23")
-ament_cmake_symlink_install_programs("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23" PROGRAMS "scripts/dummy_script.py" "DESTINATION" "lib/fra333_lab1_23")
+# install(PROGRAMS "scripts/dummy_script.py" "scripts/noise_generator.py" "scripts/velocity_mux.py" "DESTINATION" "lib/fra333_lab1_23")
+ament_cmake_symlink_install_programs("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23" PROGRAMS "scripts/dummy_script.py" "scripts/noise_generator.py" "scripts/velocity_mux.py" "DESTINATION" "lib/fra333_lab1_23")
 
 # install("TARGETS" "cpp_node_test" "DESTINATION" "lib/fra333_lab1_23")
 include("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "DESTINATION" "share/fra333_lab1_23")
-ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23" DIRECTORY "DESTINATION" "share/fra333_lab1_23")
+# install(DIRECTORY "launch" "DESTINATION" "share/fra333_lab1_23")
+ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23" DIRECTORY "launch" "DESTINATION" "share/fra333_lab1_23")
 
 # install(FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fra333_lab1_23" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23" FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/fra333_lab1_23/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fra333_lab1_23" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

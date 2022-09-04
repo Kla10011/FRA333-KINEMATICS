@@ -3,7 +3,10 @@
 /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23/__init__.py
 /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23/dummy_module.py
 /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/fra333_lab1_23/dummy_script.py
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/fra333_lab1_23/noise_generator.py
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/fra333_lab1_23/velocity_mux.py
 /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/lib/fra333_lab1_23/cpp_node_test
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/launch/random_walk.launch.py
 /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/ament_index/resource_index/package_run_dependencies/fra333_lab1_23
 /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/ament_index/resource_index/parent_prefix_path/fra333_lab1_23
 /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/ament_prefix_path.sh

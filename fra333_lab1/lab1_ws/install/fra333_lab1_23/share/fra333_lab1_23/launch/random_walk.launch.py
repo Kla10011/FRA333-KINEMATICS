@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/src/fra333_lab1_23/launch/random_walk.launch.py

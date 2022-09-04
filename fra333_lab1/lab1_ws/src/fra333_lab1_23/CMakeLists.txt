@@ -16,6 +16,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 ################ FIND DEPENDENCIES  #################
+find_package(geometry_msgs)
 find_package(ament_cmake REQUIRED)		# cpp (optional)
 find_package(rclcpp REQUIRED)			# cpp (optional)
 find_package(ament_cmake_python REQUIRED)   	# python (optional)
@@ -28,6 +29,8 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Python executables
 install(PROGRAMS
   scripts/dummy_script.py
+  scripts/noise_generator.py
+  scripts/velocity_mux.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -48,6 +51,7 @@ install(TARGETS
 ################ INSTALL LAUNCH, ETC #################
 install(DIRECTORY
   # add directories here
+  launch
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()
