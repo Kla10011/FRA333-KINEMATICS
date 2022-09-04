@@ -1,0 +1,19 @@
+[0.016s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/lab1_interfaces -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces
+[0.025s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.169s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.179s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.227s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.231s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.390s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):
+[0.390s]   rosidl_generate_interfaces() called without any interface files
+[0.391s] Call Stack (most recent call first):
+[0.391s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[0.391s] 
+[0.391s] 
+[0.391s] -- Configuring incomplete, errors occurred!
+[0.391s] See also "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces/CMakeFiles/CMakeOutput.log".
+[0.396s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/lab1_interfaces -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces

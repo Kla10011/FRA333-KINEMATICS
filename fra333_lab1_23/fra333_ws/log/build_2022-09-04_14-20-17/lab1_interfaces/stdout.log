@@ -1,0 +1,5 @@
+[  3%] Built target lab1_interfaces__cpp
+[  6%] [32mBuilding C object CMakeFiles/lab1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lab1_interfaces/srv/detail/set_noise__functions.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/lab1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lab1_interfaces/srv/set_noise__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/lab1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab1_interfaces/srv/detail/set_noise__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/lab1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lab1_interfaces/srv/detail/dds_fastrtps/set_noise__type_support.cpp.o[0m

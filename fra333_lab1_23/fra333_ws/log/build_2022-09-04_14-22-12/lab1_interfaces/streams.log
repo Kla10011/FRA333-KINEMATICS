@@ -1,0 +1,167 @@
+[0.013s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces -- -j12 -l12
+[0.032s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.052s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.173s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.182s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.233s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.237s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.386s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.430s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.511s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.746s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.746s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.764s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.764s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.764s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.803s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.804s] -- Added test 'lint_cmake' to check CMake code style
+[0.805s] -- Added test 'xmllint' to check XML markup files
+[0.810s] -- Configuring done
+[0.847s] -- Generating done
+[0.849s] -- Build files have been written to: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces
+[0.876s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.882s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.070s] [  6%] Built target lab1_interfaces__cpp
+[1.072s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_generator_c[0m
+[1.078s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.079s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.080s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.082s] [ 19%] [32mBuilding C object CMakeFiles/lab1_interfaces__rosidl_generator_c.dir/rosidl_generator_c/lab1_interfaces/srv/detail/set_noise__functions.c.o[0m
+[1.115s] [ 22%] [32m[1mLinking C shared library liblab1_interfaces__rosidl_generator_c.so[0m
+[1.150s] [ 22%] Built target lab1_interfaces__rosidl_generator_c
+[1.159s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.162s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.242s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_cpp[0m
+[1.255s] [ 32%] [32mBuilding CXX object CMakeFiles/lab1_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lab1_interfaces/srv/set_noise__type_support.cpp.o[0m
+[1.265s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.271s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.275s] [ 35%] [32mBuilding CXX object CMakeFiles/lab1_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lab1_interfaces/srv/detail/set_noise__type_support.cpp.o[0m
+[1.286s] [ 38%] [32mBuilding CXX object CMakeFiles/lab1_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lab1_interfaces/srv/detail/dds_fastrtps/set_noise__type_support.cpp.o[0m
+[1.331s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_c[0m
+[1.344s] [ 41%] [32mBuilding CXX object CMakeFiles/lab1_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/lab1_interfaces/srv/set_noise__type_support.cpp.o[0m
+[1.351s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_introspection_c[0m
+[1.362s] [ 45%] [32mBuilding C object CMakeFiles/lab1_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lab1_interfaces/srv/detail/set_noise__type_support.c.o[0m
+[1.370s] [ 48%] [32m[1mLinking CXX shared library liblab1_interfaces__rosidl_typesupport_c.so[0m
+[1.389s] [ 51%] [32m[1mLinking C shared library liblab1_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.408s] [ 51%] Built target lab1_interfaces__rosidl_typesupport_c
+[1.424s] [ 51%] Built target lab1_interfaces__rosidl_typesupport_introspection_c
+[1.477s] [ 54%] [32m[1mLinking CXX shared library liblab1_interfaces__rosidl_typesupport_cpp.so[0m
+[1.495s] [ 58%] [32m[1mLinking CXX shared library liblab1_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.508s] [ 58%] Built target lab1_interfaces__rosidl_typesupport_cpp
+[1.538s] [ 58%] Built target lab1_interfaces__rosidl_typesupport_introspection_cpp
+[1.614s] [ 61%] [32m[1mLinking CXX shared library liblab1_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.680s] [ 61%] Built target lab1_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.691s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.886s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.902s] [ 67%] [32mBuilding CXX object CMakeFiles/lab1_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lab1_interfaces/srv/detail/set_noise__type_support_c.cpp.o[0m
+[2.180s] [ 70%] [32m[1mLinking CXX shared library liblab1_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.247s] [ 70%] Built target lab1_interfaces__rosidl_typesupport_fastrtps_c
+[2.258s] [35m[1mScanning dependencies of target lab1_interfaces[0m
+[2.270s] [ 70%] Built target lab1_interfaces
+[2.281s] [35m[1mScanning dependencies of target lab1_interfaces__py[0m
+[2.294s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.633s] [ 74%] Built target lab1_interfaces__py
+[2.644s] [35m[1mScanning dependencies of target lab1_interfaces__python[0m
+[2.663s] [ 77%] [32mBuilding C object CMakeFiles/lab1_interfaces__python.dir/rosidl_generator_py/lab1_interfaces/srv/_set_noise_s.c.o[0m
+[2.739s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/lab1_interfaces/liblab1_interfaces__python.so[0m
+[2.778s] [ 80%] Built target lab1_interfaces__python
+[2.789s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_c__pyext[0m
+[2.789s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.790s] [35m[1mScanning dependencies of target lab1_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.806s] [ 83%] [32mBuilding C object CMakeFiles/lab1_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lab1_interfaces/_lab1_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.807s] [ 87%] [32mBuilding C object CMakeFiles/lab1_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lab1_interfaces/_lab1_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.809s] [ 90%] [32mBuilding C object CMakeFiles/lab1_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lab1_interfaces/_lab1_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.874s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/lab1_interfaces/lab1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.874s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/lab1_interfaces/lab1_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.879s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lab1_interfaces/lab1_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[2.905s] [100%] Built target lab1_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.910s] [100%] Built target lab1_interfaces__rosidl_typesupport_c__pyext
+[2.924s] [100%] Built target lab1_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.936s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces -- -j12 -l12
+[2.983s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces
+[2.991s] -- Install configuration: ""
+[2.992s] -- Execute custom install script
+[2.992s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/ament_index/resource_index/rosidl_interfaces/lab1_interfaces
+[3.003s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.013s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__functions.h
+[3.019s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__struct.h
+[3.025s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__type_support.h
+[3.030s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/set_noise.h
+[3.037s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/environment/library_path.sh
+[3.046s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/environment/library_path.dsv
+[3.052s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.062s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__rosidl_typesupport_fastrtps_c.h
+[3.067s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.073s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.083s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__rosidl_typesupport_fastrtps_cpp.hpp
+[3.091s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.099s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.108s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__rosidl_typesupport_introspection_c.h
+[3.115s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__builder.hpp
+[3.126s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__struct.hpp
+[3.133s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__traits.hpp
+[3.140s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/set_noise.hpp
+[3.145s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/include/lab1_interfaces/srv/detail/set_noise__rosidl_typesupport_introspection_cpp.hpp
+[3.151s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/environment/pythonpath.sh
+[3.160s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/environment/pythonpath.dsv
+[3.168s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/python3.8/site-packages/lab1_interfaces/__init__.py
+[3.178s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/python3.8/site-packages/lab1_interfaces/srv/__init__.py
+[3.187s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/python3.8/site-packages/lab1_interfaces/srv/_set_noise.py
+[3.194s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/python3.8/site-packages/lab1_interfaces/lab1_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.200s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/python3.8/site-packages/lab1_interfaces/lab1_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.208s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/python3.8/site-packages/lab1_interfaces/lab1_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.214s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__python.so
+[3.223s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/srv/SetNoise.idl
+[3.230s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/srv/SetNoise.srv
+[3.239s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/srv/SetNoise_Request.msg
+[3.247s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/srv/SetNoise_Response.msg
+[3.257s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/ament_index/resource_index/package_run_dependencies/lab1_interfaces
+[3.263s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/ament_index/resource_index/parent_prefix_path/lab1_interfaces
+[3.268s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/environment/ament_prefix_path.sh
+[3.276s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/environment/ament_prefix_path.dsv
+[3.282s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/environment/path.sh
+[3.288s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/environment/path.dsv
+[3.295s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/local_setup.bash
+[3.305s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/local_setup.sh
+[3.312s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/local_setup.zsh
+[3.323s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/local_setup.dsv
+[3.332s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/package.dsv
+[3.342s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/ament_index/resource_index/packages/lab1_interfaces
+[3.348s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.357s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.367s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.377s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.385s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.392s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.403s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.411s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfacesConfig.cmake
+[3.417s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfacesConfig-version.cmake
+[3.423s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/package.xml
+[3.429s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_generator_c.so
+[3.429s] -- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_generator_c.so" to ""
+[3.429s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_introspection_c.so
+[3.430s] -- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.430s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_c.so
+[3.430s] -- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_c.so" to ""
+[3.430s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.431s] -- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.431s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_cpp.so
+[3.431s] -- Set runtime path of "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/liblab1_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.455s] Compiling '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/lib/python3.8/site-packages/lab1_interfaces/__init__.py'...
+[3.458s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_generator_cExport.cmake
+[3.458s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.458s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.459s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.459s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_typesupport_cExport.cmake
+[3.459s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.460s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_generator_cppExport.cmake
+[3.460s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.460s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.461s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_typesupport_cppExport.cmake
+[3.461s] -- Installing: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/lab1_interfaces/share/lab1_interfaces/cmake/lab1_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.466s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces

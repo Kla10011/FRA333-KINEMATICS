@@ -37,8 +37,7 @@ find_package(std_msgs)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   # add your services here  
-  # "srv/RandGoal.srv"
-  
+  "srv/SetNoise.srv"
   DEPENDENCIES std_msgs
 )
 

@@ -1,0 +1,44 @@
+[0.021s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23
+[0.031s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.179s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.187s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.218s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.360s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.361s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.481s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.537s] -- Configuring done
+[0.543s] -- Generating done
+[0.544s] -- Build files have been written to: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23
+[0.550s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23
+[0.553s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23 -- -j12 -l12
+[0.601s] [100%] Built target cpp_node_test
+[0.613s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23 -- -j12 -l12
+[0.646s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23
+[0.651s] -- Install configuration: ""
+[0.651s] -- Execute custom install script
+[0.652s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/pythonpath.sh
+[0.652s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/pythonpath.dsv
+[0.652s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23/__init__.py
+[0.652s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23/dummy_module.py
+[0.653s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/fra333_lab1_23/dummy_script.py
+[0.653s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/fra333_lab1_23/cpp_node_test
+[0.653s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/ament_index/resource_index/package_run_dependencies/fra333_lab1_23
+[0.653s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/ament_index/resource_index/parent_prefix_path/fra333_lab1_23
+[0.654s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/ament_prefix_path.sh
+[0.654s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/ament_prefix_path.dsv
+[0.654s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/path.sh
+[0.654s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/environment/path.dsv
+[0.654s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/local_setup.bash
+[0.655s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/local_setup.sh
+[0.655s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/local_setup.zsh
+[0.655s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/local_setup.dsv
+[0.655s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.dsv
+[0.664s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/ament_index/resource_index/packages/fra333_lab1_23
+[0.664s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/cmake/fra333_lab1_23Config.cmake
+[0.664s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/cmake/fra333_lab1_23Config-version.cmake
+[0.664s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/share/fra333_lab1_23/package.xml
+[0.684s] Listing '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/install/fra333_lab1_23/lib/python3.8/site-packages/fra333_lab1_23'...
+[0.689s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23
