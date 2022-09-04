@@ -1,9 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/install/strip.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/install/local.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/install.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/list_install_components.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/rebuild_cache.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/edit_cache.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/test.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/lab1_uninstall.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1/CMakeFiles/uninstall.dir

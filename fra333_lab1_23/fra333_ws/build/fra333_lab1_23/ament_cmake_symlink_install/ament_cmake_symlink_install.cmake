@@ -325,8 +325,8 @@ ament_cmake_symlink_install_programs("/home/ronnakon/FRA333-KINEMATICS/fra333_la
 # install("TARGETS" "cpp_node_test" "DESTINATION" "lib/fra333_lab1_23")
 include("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(DIRECTORY "DESTINATION" "share/fra333_lab1_23")
-ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23" DIRECTORY "DESTINATION" "share/fra333_lab1_23")
+# install(DIRECTORY "launch" "DESTINATION" "share/fra333_lab1_23")
+ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23" DIRECTORY "launch" "DESTINATION" "share/fra333_lab1_23")
 
 # install(FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fra333_lab1_23" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23" FILES "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fra333_lab1_23" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
