@@ -1,17 +1,27 @@
 #!/usr/bin/python3
 
 # import all other neccesary libraries
+from re import T
+import rclpy
+from rclpy.node import Node
+from statistics import mean, variance
 from std_msgs.msg import Float64
+from geometry_msgs.msg import Twist
 import sys
 
 class VelocityMux(Node):
     def __init__(self):
+        super().__init__('velocity_multiplexer')
         # get the rate from argument or default
         if sys.argv[1]:
             self.rate = float(sys.argv[1])
         else:
             self.rate = 5.0
         # add codes here
+        self.cmd_vel = self.create_publisher(Twist,'/turtle/cmd_vel',10)
+        
+         
+
 
         # additional attributes
         self.cmd_vel = Twist()
