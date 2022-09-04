@@ -1,2 +1,4 @@
 #add service definition here
+std_msg/Float64 mean
+std_msg/Float64 variance
 ---
