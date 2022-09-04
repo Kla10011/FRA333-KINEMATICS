@@ -1,4 +1,0 @@
-Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1 -- -j12 -l12
-Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1 -- -j12 -l12
-Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1
-Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1

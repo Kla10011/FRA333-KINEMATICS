@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

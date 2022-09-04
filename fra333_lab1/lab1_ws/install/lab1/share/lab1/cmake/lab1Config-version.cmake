@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1/lab1_ws/build/lab1/ament_cmake_core/lab1Config-version.cmake
