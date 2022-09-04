@@ -19,9 +19,8 @@ class VelocityMux(Node):
             self.rate = 5.0
         # add codes here
         self.cmd_vel = self.create_publisher(Twist,'/turtle/cmd_vel',10)
-        
-         
-
+        self.linear_sub = self.create_subscription(Float64,'/linear/noise',self.linear_vel_sub_callback,10)
+        self.angular_sub = self.create_subscription(Float64,'/angular/noise',self.angular_vel_sub_callback,10)
 
         # additional attributes
         self.cmd_vel = Twist()

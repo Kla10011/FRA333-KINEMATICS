@@ -319,8 +319,8 @@ ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_
 # install(DIRECTORY "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23/fra333_lab1_23/" "DESTINATION" "lib/python3.8/site-packages/fra333_lab1_23" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23" DIRECTORY "/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23/fra333_lab1_23/" "DESTINATION" "lib/python3.8/site-packages/fra333_lab1_23" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/dummy_script.py" "DESTINATION" "lib/fra333_lab1_23")
-ament_cmake_symlink_install_programs("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23" PROGRAMS "scripts/dummy_script.py" "DESTINATION" "lib/fra333_lab1_23")
+# install(PROGRAMS "scripts/dummy_script.py" "scripts/noise_generator.py" "scripts/velocity_mux.py" "DESTINATION" "lib/fra333_lab1_23")
+ament_cmake_symlink_install_programs("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/src/fra333_lab1_23" PROGRAMS "scripts/dummy_script.py" "scripts/noise_generator.py" "scripts/velocity_mux.py" "DESTINATION" "lib/fra333_lab1_23")
 
 # install("TARGETS" "cpp_node_test" "DESTINATION" "lib/fra333_lab1_23")
 include("/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/fra333_lab1_23/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")

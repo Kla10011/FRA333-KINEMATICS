@@ -28,6 +28,8 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Python executables
 install(PROGRAMS
   scripts/dummy_script.py
+  scripts/noise_generator.py
+  scripts/velocity_mux.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
