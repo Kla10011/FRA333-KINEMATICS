@@ -42,12 +42,12 @@ class NoiseGenerator(Node):
         
 
 def main(args=None):
-    rclpy.init(args=args)
+    rclpy.init(args=args)       #เตรียมตัวก่อนสร้าง node
     print('start')
-    controller = NoiseGenerator()
-    rclpy.spin(controller)
-    controller.destroy_node()
-    rclpy.shutdown()            #
+    NoiseGen = NoiseGenerator()
+    rclpy.spin(NoiseGen)        #run loop
+    NoiseGen.destroy_node()
+    rclpy.shutdown()            #shutdown
     
 
 if __name__=='__main__':
