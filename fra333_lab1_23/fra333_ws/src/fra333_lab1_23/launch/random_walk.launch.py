@@ -8,9 +8,9 @@ def generate_launch_description():
     launch_description = LaunchDescription()
 
     ### Example for adding launch argument ###
-    v_max = LaunchConfiguration('v_max')
-    v_max_launch_arg = DeclareLaunchArgument('v_max',default_value='1.0')
-    launch_description.add_action(v_max_launch_arg)
+    # v_max = LaunchConfiguration('v_max')
+    # v_max_launch_arg = DeclareLaunchArgument('v_max',default_value='1.0')
+    # launch_description.add_action(v_max_launch_arg)
     
     ## Example for adding a node ###
     turtlesim = Node(
@@ -22,23 +22,29 @@ def generate_launch_description():
             {'background_r':100},
         ]
     )
+    launch_description.add_action(turtlesim)
+    
     linear_noise_generator = Node(
         package='fra333_lab1_23',
         executable='noise_generator.py',
         namespace= '/linear/noise',
     )
+    launch_description.add_action(linear_noise_generator)
+    
     angular_noise_generator = Node(
         package='fra333_lab1_23',
         executable='noise_generator.py',
         namespace= '/angular/noise',
     )
+    launch_description.add_action(angular_noise_generator)
+    
     velocity_mux = Node(
         package='fra333_lab1_23',
         executable='velocity_mux.py',
         namespace= 'velocity_mux',
     )
+    launch_description.add_action(velocity_mux)
 
-    launch_description.add_action(turtlesim,linear_noise_generator,angular_noise_generator,velocity_mux)
     # node = Node(
     #     package='fra333_lab1_23',
     #     executable='my_executable',
