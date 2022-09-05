@@ -6,12 +6,12 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
     # create a place holder for launch description
 
-    launch_description = LaunchDescription()
+    # launch_description = LaunchDescription()
 
     ### Example for adding launch argument ###
     rate = LaunchConfiguration('rate')
     rate_launch_arg = DeclareLaunchArgument('rate',default_value='1.0')
-    launch_description.add_action(rate_launch_arg)
+    #launch_description.add_action(rate_launch_arg)
     
     ## Example for adding a node ###
     turtlesim = Node(
@@ -28,7 +28,7 @@ def generate_launch_description():
     linear_noise_generator = Node(
         package='fra333_lab1_23',
         executable='noise_generator.py',
-        namespace= '/linear/noise',
+        namespace= '/linear',
         arguments=[rate]
     )
     # launch_description.add_action(linear_noise_generator)
@@ -36,7 +36,7 @@ def generate_launch_description():
     angular_noise_generator = Node(
         package='fra333_lab1_23',
         executable='noise_generator.py',
-        namespace= '/angular/noise',
+        namespace= '/angular',
         arguments=[rate]
     )
     # launch_description.add_action(angular_noise_generator)
@@ -69,7 +69,7 @@ def generate_launch_description():
     #     shell=True
     # )
     # launch_description.add_action(pub_cmd_vel)
-    entity_to_run = [turtlesim,linear_noise_generator,angular_noise_generator,velocity_mux]
+    entity_to_run = [rate_launch_arg,turtlesim,linear_noise_generator,angular_noise_generator,velocity_mux]
     return LaunchDescription(entity_to_run)
 
     
