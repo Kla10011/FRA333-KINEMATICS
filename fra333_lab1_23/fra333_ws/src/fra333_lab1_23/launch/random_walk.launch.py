@@ -5,12 +5,13 @@ from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
     # create a place holder for launch description
+
     launch_description = LaunchDescription()
 
     ### Example for adding launch argument ###
-    # v_max = LaunchConfiguration('v_max')
-    # v_max_launch_arg = DeclareLaunchArgument('v_max',default_value='1.0')
-    # launch_description.add_action(v_max_launch_arg)
+    rate = LaunchConfiguration('rate')
+    rate_launch_arg = DeclareLaunchArgument('rate',default_value='1.0')
+    launch_description.add_action(rate_launch_arg)
     
     ## Example for adding a node ###
     turtlesim = Node(
@@ -22,34 +23,37 @@ def generate_launch_description():
             {'background_r':100},
         ]
     )
-    launch_description.add_action(turtlesim)
+    # launch_description.add_action(turtlesim)
     
     linear_noise_generator = Node(
         package='fra333_lab1_23',
         executable='noise_generator.py',
         namespace= '/linear/noise',
+        arguments=[rate]
     )
-    launch_description.add_action(linear_noise_generator)
+    # launch_description.add_action(linear_noise_generator)
     
     angular_noise_generator = Node(
         package='fra333_lab1_23',
         executable='noise_generator.py',
         namespace= '/angular/noise',
+        arguments=[rate]
     )
-    launch_description.add_action(angular_noise_generator)
+    # launch_description.add_action(angular_noise_generator)
     
     velocity_mux = Node(
         package='fra333_lab1_23',
         executable='velocity_mux.py',
         namespace= 'velocity_mux',
+        arguments=[rate]
     )
-    launch_description.add_action(velocity_mux)
+    # launch_description.add_action(velocity_mux)
 
     # node = Node(
     #     package='fra333_lab1_23',
     #     executable='my_executable',
     #     namespace= 'this_namespace',
-    #     arguments=[v_max],
+    #     arguments=[rate],
     #     remappings=[
     #         ('/topic_1','/topic_a'),
     #         ('/topic_2','/topic_b'),
@@ -65,6 +69,7 @@ def generate_launch_description():
     #     shell=True
     # )
     # launch_description.add_action(pub_cmd_vel)
-    return launch_description()
+    entity_to_run = [turtlesim,linear_noise_generator,angular_noise_generator,velocity_mux]
+    return LaunchDescription(entity_to_run)
 
     
