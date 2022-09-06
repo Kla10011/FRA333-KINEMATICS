@@ -30,6 +30,7 @@ def generate_launch_description():
         executable='noise_generator.py',
         namespace= '/linear',
         arguments=[rate]
+        remappings=[('/noise','/linear/noise')]
     )
     # launch_description.add_action(linear_noise_generator)
     
@@ -38,6 +39,7 @@ def generate_launch_description():
         executable='noise_generator.py',
         namespace= '/angular',
         arguments=[rate]
+        remappings=[('/noise','/angular/noise')]
     )
     # launch_description.add_action(angular_noise_generator)
     

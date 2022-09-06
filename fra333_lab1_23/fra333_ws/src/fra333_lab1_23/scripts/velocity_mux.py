@@ -18,7 +18,7 @@ class VelocityMux(Node):
         else:
             self.rate = 5.0
         # add codes topic here
-        self.cmd_vel = self.create_publisher(Twist,'/turtle/cmd_vel',10)
+        self.cmd_vel = self.create_publisher(Twist,'/turtle1/cmd_vel',10)
         self.timer = self.create_timer(1/self.rate,self.timer_callback)  
         # add codes sub here
         self.linear_sub = self.create_subscription(Float64,'/linear/noise',self.linear_vel_sub_callback,10)
