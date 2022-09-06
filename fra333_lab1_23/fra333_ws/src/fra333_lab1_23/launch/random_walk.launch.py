@@ -9,8 +9,8 @@ def generate_launch_description():
     # launch_description = LaunchDescription()
 
     ### Example for adding launch argument ###
-    rate = LaunchConfiguration('rate')
-    rate_launch_arg = DeclareLaunchArgument('rate',default_value='1.0')
+    rate = LaunchConfiguration('/rate')
+    rate_launch_arg = DeclareLaunchArgument('/rate',default_value='5.0')
     #launch_description.add_action(rate_launch_arg)
     
     ## Example for adding a node ###
@@ -29,8 +29,8 @@ def generate_launch_description():
         package='fra333_lab1_23',
         executable='noise_generator.py',
         namespace= '/linear',
-        arguments=[rate]
-        remappings=[('/noise','/linear/noise')]
+        arguments=[rate] ,
+        remappings=[('/noise','/linear/noise'),('/set_noise','/linear/set_noise')]
     )
     # launch_description.add_action(linear_noise_generator)
     
@@ -38,8 +38,8 @@ def generate_launch_description():
         package='fra333_lab1_23',
         executable='noise_generator.py',
         namespace= '/angular',
-        arguments=[rate]
-        remappings=[('/noise','/angular/noise')]
+        arguments=[rate] ,
+        remappings=[('/noise','/angular/noise'),('/set_noise','/angular/set_noise')]
     )
     # launch_description.add_action(angular_noise_generator)
     

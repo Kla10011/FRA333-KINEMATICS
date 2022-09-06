@@ -28,10 +28,10 @@ class VelocityMux(Node):
         self.get_logger().info(f'Starting {self.get_name()}')
 
     def linear_vel_sub_callback(self,msg:Float64):
-        self.cmd.linear.x = msg
+        self.cmd.linear.x = msg.data
     
     def angular_vel_sub_callback(self,msg:Float64):
-        self.cmd.angular.z = msg
+        self.cmd.angular.z = msg.data
 
     
     def timer_callback(self):
