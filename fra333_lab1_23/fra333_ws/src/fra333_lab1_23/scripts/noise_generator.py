@@ -36,7 +36,7 @@ class NoiseGenerator(Node):
 
     def timer_callback(self):
         noise = Float64()
-        mu, sigma = 0, 0.1                          # mean and standard deviation 
+        mu, sigma = self.mean, self.variance                          # mean and standard deviation 
         noise.data = np.random.normal(mu, sigma**0.5)   # จำนวน random
         self.noise_pub.publish(noise)
         
