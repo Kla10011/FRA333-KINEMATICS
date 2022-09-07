@@ -3,7 +3,7 @@
 # import all other neccesary libraries here
 from re import S
 # from statistics import mean, variance
-import rclpy                            #li node
+import rclpy                            #libraries node
 import sys
 from rclpy.node import Node
 from std_msgs.msg import Float64
@@ -44,8 +44,8 @@ class NoiseGenerator(Node):
 
 def main(args=None):
     rclpy.init(args=args)       #เตรียมตัวก่อนสร้าง node
-    print('start')
     NoiseGen = NoiseGenerator()
+    print('start')
     rclpy.spin(NoiseGen)        #run loop
     NoiseGen.destroy_node()
     rclpy.shutdown()            #shutdown
