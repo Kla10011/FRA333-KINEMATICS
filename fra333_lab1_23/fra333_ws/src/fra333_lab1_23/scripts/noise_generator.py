@@ -2,12 +2,12 @@
 
 # import all other neccesary libraries here
 from re import S
-from statistics import mean, variance
+# from statistics import mean, variance
 import rclpy                            #li node
+import sys
 from rclpy.node import Node
 from std_msgs.msg import Float64
 from lab1_interfaces.srv import SetNoise
-import sys
 import numpy as np
 
 class NoiseGenerator(Node):
@@ -21,6 +21,7 @@ class NoiseGenerator(Node):
         # add codes here topic
         self.noise_pub = self.create_publisher(Float64,'/noise',10)         #(type,'topic',จำนวนข้อมูลที่เก็บได้ใน topic)
         # add codes here service
+        
         self.set_noise = self.create_service(SetNoise,'/set_noise',self.set_noise_callback)
         # add codes here timer callback
         self.timer = self.create_timer(1/self.rate,self.timer_callback)                      # 5 Hz      
@@ -36,7 +37,7 @@ class NoiseGenerator(Node):
 
     def timer_callback(self):
         noise = Float64()
-        mu, sigma = self.mean, self.variance                          # mean and standard deviation 
+        mu, sigma = self.mean, self.variance                          # mean and standard deviation to variance
         noise.data = np.random.normal(mu, sigma**0.5)   # จำนวน random
         self.noise_pub.publish(noise)
         
