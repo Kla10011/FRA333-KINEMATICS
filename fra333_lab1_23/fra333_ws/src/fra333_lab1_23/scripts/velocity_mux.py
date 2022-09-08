@@ -31,7 +31,7 @@ class VelocityMux(Node):
         self.cmd.linear.x = msg.data
     
     def angular_vel_sub_callback(self,msg:Float64):
-        self.cmd.angular.z = msg.data
+        self.cmd.angular.z = msg.data 
 
     
     def timer_callback(self):

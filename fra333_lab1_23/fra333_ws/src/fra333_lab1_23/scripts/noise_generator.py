@@ -14,7 +14,7 @@ class NoiseGenerator(Node):
     def __init__(self):
         super().__init__('noise_generator')
         # get the rate from argument or default
-        if len(sys.argv)>2: 
+        if len(sys.argv)>=2: 
             self.rate = float(sys.argv[1])
         else:
             self.rate = 5.0
@@ -37,9 +37,10 @@ class NoiseGenerator(Node):
 
     def timer_callback(self):
         noise = Float64()
-        mu, sigma = self.mean, self.variance                          # mean and standard deviation to variance
+        mu, sigma = self.mean, self.variance                          # mean and variance to standard deviation
         noise.data = np.random.normal(mu, sigma**0.5)   # จำนวน random
         self.noise_pub.publish(noise)
+        print(self.rate)
         
 
 def main(args=None):
