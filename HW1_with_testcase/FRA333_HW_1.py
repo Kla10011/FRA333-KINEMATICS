@@ -9,6 +9,7 @@ import json
 class MyBeeBot(BeeBot):
     def __init__(self,a_i):
         super().__init__(a_i)
+        BeeBot.idx2pos(self, 1,1)
     # a_i is initial position
     # c is command {'0'->stop, '1'->forward, '2'->backward, '3'->turn right, '4'->turn left}
     # o is obstacle
