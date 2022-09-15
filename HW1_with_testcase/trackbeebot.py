@@ -10,14 +10,14 @@ class BeeBot():
     def __init__(self,init_idx):
         self.init_idx = init_idx
         self.d = 1.0
-    def idx2pos(self, i,j):
+    def idx2pos(self, i,j):                                             # initial position Beebot
         a = np.array([3/2,np.math.sqrt(3)/2])*self.d*(i-1)
         b = np.array([-3/2,np.math.sqrt(3)/2])*self.d*(j-1)
-        return a+b+np.array([0,np.math.sqrt(3)])
+        return a+b+np.array([0,np.math.sqrt(3)])                        # array ( 2D ) [0. , 0.]
     def Hexagon(self,center,theta=0,faceColor='w'):
         x = [np.cos(math.pi/3*np.array(range(6)))+center[0]]
         y = [np.sin(math.pi/3*np.array(range(6)))+center[1]]
-        xy = np.concatenate((x,y),0)
+        xy = np.concatenate((x,y),0)                                    # axis 0,1,None ต่อ,ติด,รวม array
         return Polygon(xy.T,closed=True,edgeColor='k',faceColor=faceColor) #plot
     # check if obstacle is given
     def plot_trackBeeBot(self,A,max,plot,W=None):
