@@ -37,6 +37,10 @@ class MyBeeBot(BeeBot):
             5: [1,0],-5: [1,0],#300 degrees
         }
         return switcher.get(argument, "nothing")
+    def pos2index(self, m,n):                                             # initial position Beebot
+        a = np.array((np.math.sqrt(3)/2*m)-(np.math.sqrt(3)/2*n))
+        b = np.array((1/2*m)-(1/2*n))
+        return np.array([a,b])
 
     def trackBeeBot(self, com, W): 
         for i in com:
@@ -56,12 +60,6 @@ class MyBeeBot(BeeBot):
                 else:
                     self.a_i = future #do
 
-                
-            
-
-
-
-
-             
-# if __name__ == '__main__':
-#     test = 1
+                # x_2 = (np.math.sqrt(3)/2)*self.a_i
+                # y_2 = (np.array(1/2))*self.a_i
+                # x_frameA = x_2[0]-x_2[0]+self.
