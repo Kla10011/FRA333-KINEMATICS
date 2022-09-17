@@ -15,14 +15,13 @@ class MyBeeBot(BeeBot):
     def __init__(self,a_i):
         super().__init__(a_i)
         self.a_i = np.array(a_i)
-        self.a_i_m = [a_i[0]]
-        self.a_i_n = [a_i[1]]
+        self.a_i_m = []
+        self.a_i_n = []
         self.a_i_x = []
         self.a_i_y = []
         self.d = 0
         self.direction = 0 # intial degrees
         self.a_direction = [1,1]
-        self.pos2index(self.a_i[0],self.a_i[1])
     def numbers_to_action(self,argument): #affect ot a_i,a_j
         switcher = {
             0: 0,
@@ -53,7 +52,7 @@ class MyBeeBot(BeeBot):
         self.a_i_x += [x]
         self.a_i_y += [y]
     def trackBeeBot(self, com, W): 
-        wall = list(map(lambda x,y: [x,y],W[0],W[1]))
+        wall = list(map(lambda x,y: [x,y],W[0],W[0]))
         for i in com:
             com_state = int(i)
             # self.a_direction = np.array(self.numbers_to_direction(abs(self.d))) #เตรียมเดิน
@@ -67,16 +66,15 @@ class MyBeeBot(BeeBot):
                 action = np.array(self.numbers_to_action(com_state)) #look action from {0,1,2}
                 # print(com_state,action,self.a_direction,self.a_i)
                 future = self.a_i + (self.a_direction*action) #predict
-                if [future[0],future[1]] in wall: # condition wall
-                    self.a_i = self.a_i  #undo
-                else:
-                    self.a_i = future #do
-                    self.pos2index(self.a_i[0],self.a_i[1])
-                    self.pos2pos(self.a_i[0],self.a_i[1])
-                # print(com_state,self.a_i,self.direction,self.d)                                             #check by god
+                self.pos2pos(self.a_i[0],self.a_i[1])
+                self.pos2index(self.a_i[0],self.a_i[1])
+                # if [future[0],future[1]] in wall: # condition wall
+                #     self.a_i = self.a_i  #undo
+                # else:
+                self.a_i = future #do
+                print(com_state,self.a_i,self.direction,self.d)
 
-        A = np.array([self.a_i_m,self.a_i_n])
-        # A = [self.a_i_m,self.a_i_n]
+        A = np.array([self.a_i_m,self.a_i_n],dtype=np.int)
         P = np.array([self.a_i_x,self.a_i_y])
     
         return [A,P]

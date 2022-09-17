@@ -10,15 +10,15 @@ class BeeBot():
     def __init__(self,init_idx):
         self.init_idx = init_idx
         self.d = 1.0
-    def idx2pos(self, i,j):                                             # initial position Beebot
+    def idx2pos(self, i,j):
         a = np.array([3/2,np.math.sqrt(3)/2])*self.d*(i-1)
         b = np.array([-3/2,np.math.sqrt(3)/2])*self.d*(j-1)
-        return a+b+np.array([0,np.math.sqrt(3)])                        # array ( 2D ) [0. , 0.]
+        return a+b+np.array([0,np.math.sqrt(3)])
     def Hexagon(self,center,theta=0,faceColor='w'):
         x = [np.cos(math.pi/3*np.array(range(6)))+center[0]]
         y = [np.sin(math.pi/3*np.array(range(6)))+center[1]]
-        xy = np.concatenate((x,y),0)                                    # axis 0,1,None ต่อ,ติด,รวม array
-        return Polygon(xy.T,closed=True,edgeColor='k',faceColor=faceColor) #plot
+        xy = np.concatenate((x,y),0)
+        return Polygon(xy.T,closed=True,edgeColor='k',faceColor=faceColor)
     # check if obstacle is given
     def plot_trackBeeBot(self,A,max,plot,W=None):
         if W is not None:
@@ -41,13 +41,12 @@ class BeeBot():
         if W is not None:
             for (i,j) in W.T:
                 center = self.idx2pos(i,j)
-                # print([i,j],center)
                 hex = self.Hexagon(center,0,'k')
                 # hex = self.Hexagon(center,0,'b')
                 ax.add_patch(hex)
         
-        ax.set_xbound((-max*2,max*2))
-        ax.set_ybound((-max*2,max*2))
+        ax.set_xbound((-max,max))
+        ax.set_ybound((-max,max))
 
         # draw path
         color_dict = {}
@@ -81,6 +80,6 @@ class BeeBot():
     # a_i is initial position
     # c is command {'0'->stop, '1'->forward, '2'->backward, '3'->turn right, '4'->turn left}
     # o is obstacle
-    # def trackBeeBot(self, com, W):
-    #     pass
+    def trackBeeBot(self, com, W):
+        pass
 
