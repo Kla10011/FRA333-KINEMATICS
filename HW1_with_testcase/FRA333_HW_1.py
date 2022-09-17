@@ -15,6 +15,10 @@ class MyBeeBot(BeeBot):
     def __init__(self,a_i):
         super().__init__(a_i)
         self.a_i = np.array(a_i)
+        self.a_i_m = []
+        self.a_i_n = []
+        self.a_i_x = []
+        self.a_i_y = []
         self.d = 0
         self.direction = 0 # intial degrees
     def numbers_to_action(self,argument): #affect ot a_i,a_j
@@ -37,11 +41,18 @@ class MyBeeBot(BeeBot):
             5: [1,0],-5: [1,0],#300 degrees
         }
         return switcher.get(argument, "nothing")
+    def pos2pos(self, m,n):                                             # initial position Beebot
+        self.a_i_m += [m]
+        self.a_i_n += [n]
+        # return np.array([self.a_i_m,self.a_i_n])
     def pos2index(self, m,n):                                             # initial position Beebot
-        a = np.array((np.math.sqrt(3)/2*m)-(np.math.sqrt(3)/2*n))
-        b = np.array((1/2*m)-(1/2*n))
-        return np.array([a,b])
-
+        m=float((m)*(np.math.sqrt(3))) #transtorm pos2scaleG
+        n=float((n)*(np.math.sqrt(3))) #transtorm pos2scaleG
+        x = ((np.math.sqrt(3)/2)*m)-((np.math.sqrt(3)/2)*n)
+        y = (((1/2)*m)+((1/2)*n))
+        self.a_i_x += [x]
+        self.a_i_y += [y]
+        # return np.array([self.a_i_x,self.a_i_y])
     def trackBeeBot(self, com, W): 
         for i in com:
             com_state = int(i)
@@ -52,14 +63,14 @@ class MyBeeBot(BeeBot):
                 self.d = ((self.direction/60)%6)*(action/60) #find direction
                 action = 0 # reset degrees 
                 a_direction = np.array(self.numbers_to_direction(self.d)) #เตรียมเดิน
-            elif com_state in [0,1,2]:
+            elif com_state in [0,1,2]: # walk
                 action = np.array(self.numbers_to_action(com_state)) #look action from {0,1,2}
                 future = self.a_i + (a_direction*action) #predict
+                self.pos2index(self.a_i[0],self.a_i[1])
+                self.pos2pos(self.a_i[0],self.a_i[1])
                 if future in wall: # condition wall
                     self.a_i = self.a_i - (a_direction*action) #undo
                 else:
                     self.a_i = future #do
 
-                # x_2 = (np.math.sqrt(3)/2)*self.a_i
-                # y_2 = (np.array(1/2))*self.a_i
-                # x_frameA = x_2[0]-x_2[0]+self.
+        return np.array([self.a_i_m,self.a_i_n],[self.a_i_x,self.a_i_y])
