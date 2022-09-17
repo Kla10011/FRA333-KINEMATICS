@@ -3,7 +3,7 @@
 # import all other neccesary libraries here
 from re import S
 # from statistics import mean, variance
-import rclpy                            #li node
+import rclpy                            #libraries node
 import sys
 from rclpy.node import Node
 from std_msgs.msg import Float64
@@ -14,7 +14,7 @@ class NoiseGenerator(Node):
     def __init__(self):
         super().__init__('noise_generator')
         # get the rate from argument or default
-        if len(sys.argv)>2: 
+        if len(sys.argv)>=2: 
             self.rate = float(sys.argv[1])
         else:
             self.rate = 5.0
@@ -37,15 +37,16 @@ class NoiseGenerator(Node):
 
     def timer_callback(self):
         noise = Float64()
-        mu, sigma = self.mean, self.variance                          # mean and standard deviation to variance
+        mu, sigma = self.mean, self.variance                          # mean and variance to standard deviation
         noise.data = np.random.normal(mu, sigma**0.5)   # จำนวน random
         self.noise_pub.publish(noise)
+        print(self.rate)
         
 
 def main(args=None):
     rclpy.init(args=args)       #เตรียมตัวก่อนสร้าง node
-    print('start')
     NoiseGen = NoiseGenerator()
+    print('start')
     rclpy.spin(NoiseGen)        #run loop
     NoiseGen.destroy_node()
     rclpy.shutdown()            #shutdown

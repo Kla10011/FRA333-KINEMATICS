@@ -71,7 +71,18 @@ def generate_launch_description():
     #     shell=True
     # )
     # launch_description.add_action(pub_cmd_vel)
-    entity_to_run = [rate_launch_arg,turtlesim,linear_noise_generator,angular_noise_generator,velocity_mux]
+    pub_cmd_vel_linear = ExecuteProcess(
+            cmd = [[f'ros2 service call /linear/set_noise lab1_interfaces/srv/SetNoise "{{mean: {{data: 1.0}}, variance: {{data: 0.1}}}}"']],
+        shell=True
+    )
+
+    pub_cmd_vel_angular = ExecuteProcess(
+        cmd = [[f'ros2 service call /angular/set_noise lab1_interfaces/srv/SetNoise "{{mean: {{data: 0.0}}, variance: {{data: 3.0}}}}"']],
+        shell=True
+    )
+
+
+    entity_to_run = [rate_launch_arg,turtlesim,linear_noise_generator,angular_noise_generator,velocity_mux,pub_cmd_vel_linear,pub_cmd_vel_angular]
     return LaunchDescription(entity_to_run)
 
     
