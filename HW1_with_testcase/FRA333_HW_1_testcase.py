@@ -15,22 +15,26 @@ for testcase in testcases["testcase"]:
     mytest = MyBeeBot(np.array(testcase["a_i"]))
     W = np.array(testcase["w"])
     c = testcase["c"]
+    a = np.array(testcase["a"])
     A, P = mytest.trackBeeBot(c,W)
-    ########## Check Solution ###########
-    check = True
-    try:
-        for a, _a in zip(A.T, np.array(testcase["a"]).T):
-            if (abs(a[0] - _a[0] <= 0.05) and abs(a[1] - _a[1] <= 0.05)):
-                pass
-            else:
-                check = False
-    except:
-        check = False
-    if check:
-        print("Testcase no. " + str(i) + " is TRUE")
-    else:
-        print("Testcase no. " + str(i) + " is FALSE")
-    i = i + 1
-    mytest.plot_trackBeeBot(A,testcase["max"],True,W)
+    print(A)
+    print(a)
+    break
+    # ########## Check Solution ###########
+    # check = True
+    # try:
+    #     for a, _a in zip(A.T, np.array(testcase["a"]).T):
+    #         if (abs(a[0] - _a[0]) <= 0.05 and abs(a[1] - _a[1]) <= 0.05):
+    #             pass
+    #         else:
+    #             check = False
+    # except:
+    #     check = False
+    # if check:
+    #     print("Testcase no. " + str(i) + " is TRUE")
+    # else:
+    #     print("Testcase no. " + str(i) + " is FALSE")
+    # i = i + 1
+    # mytest.plot_trackBeeBot(A,testcase["max"],True,W)
 
 
