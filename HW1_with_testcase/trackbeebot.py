@@ -13,6 +13,7 @@ class BeeBot():
     def idx2pos(self, i,j):                                             # initial position Beebot
         a = np.array([3/2,np.math.sqrt(3)/2])*self.d*(i-1)
         b = np.array([-3/2,np.math.sqrt(3)/2])*self.d*(j-1)
+        # print(self.d)
         return a+b+np.array([0,np.math.sqrt(3)])                        # array ( 2D ) [0. , 0.]
     def Hexagon(self,center,theta=0,faceColor='w'):
         x = [np.cos(math.pi/3*np.array(range(6)))+center[0]]
@@ -35,7 +36,7 @@ class BeeBot():
                 center = self.idx2pos(i,j)
                 hex = self.Hexagon(center,0)
                 ax.add_patch(hex)
-                ax.text(center[0],center[1], str(i)+","+str(j), ha="center", va="center", size=10)
+                ax.text(center[0],center[1], str(i)+","+str(j), ha="center", va="center", size=6)
                 
         # draw walls
         if W is not None:
@@ -46,14 +47,15 @@ class BeeBot():
                 # hex = self.Hexagon(center,0,'b')
                 ax.add_patch(hex)
         
-        ax.set_xbound((-max*2,max*2))
-        ax.set_ybound((-max*2,max*2))
+        ax.set_xbound((-max,max))
+        ax.set_ybound((-max,max))
 
         # draw path
         color_dict = {}
         idx = 0
         for (i,j) in A.T:
             center = self.idx2pos(i,j)
+            # print(center)
             if idx == 0:
                 color = 'g'
             elif idx == np.shape(A)[1]-1:

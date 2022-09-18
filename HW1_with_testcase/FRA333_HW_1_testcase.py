@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+from doctest import BLANKLINE_MARKER
 from trackbeebot import BeeBot
 import matplotlib.pyplot as plt 
 from matplotlib.patches import Polygon
@@ -36,10 +37,8 @@ for testcase in testcases["testcase"]:
     else:
         print("Testcase no. " + str(i) + " is FALSE")
     i = i + 1
-    # mytest.plot_trackBeeBot(A,testcase["max"],True,W)
+    mytest.plot_trackBeeBot(np.array(testcase["a"]),testcase["max"],True,W)
     # print(A)
     # print(gg)
     # print(P)
-    
-
-
+    # break
