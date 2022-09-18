@@ -16,9 +16,6 @@ for testcase in testcases["testcase"]:
     W = np.array(testcase["w"])
     c = testcase["c"]
     A, P = mytest.trackBeeBot(c,W)
-    # A = testcase["a"]
-    # P = testcase["p"]
-    
     ########## Check Solution ###########
     check = True
     try:
