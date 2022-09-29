@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(dummy_description)
+project(fra333_lab1)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -27,16 +27,16 @@ ament_python_install_package(${PROJECT_NAME})
 
 # Install Python executables
 install(PROGRAMS
-  scripts/dummy_script.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
 
 ################ INSTALL LAUNCH, ETC #################
 install(DIRECTORY
-  # add directories here
-  config 
   launch
-  DESTINATION share/${PROJECT_NAME}
-  )
+  meshes
+  robot
+  rviz
+  DESTINATION share/${PROJECT_NAME})
+
 ament_package()

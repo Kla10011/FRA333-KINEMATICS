@@ -1,0 +1,2 @@
+Invoking command in '/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description -- -j12 -l12
+Invoked command in '/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description -- -j12 -l12
