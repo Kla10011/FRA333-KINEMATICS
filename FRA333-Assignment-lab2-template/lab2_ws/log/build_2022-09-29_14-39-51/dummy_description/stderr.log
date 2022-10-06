@@ -1,7 +1,0 @@
-CMake Error at CMakeLists.txt:41:
-  Parse error.  Expected "(", got newline with text "
-
-  ".
-
-
-make: *** [Makefile:222: cmake_check_build_system] Error 1

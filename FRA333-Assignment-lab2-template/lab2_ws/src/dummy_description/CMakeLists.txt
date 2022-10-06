@@ -37,6 +37,8 @@ install(DIRECTORY
   # add directories here
   config 
   launch
+  robot
+  cad_lab
   DESTINATION share/${PROJECT_NAME}
   )
 ament_package()

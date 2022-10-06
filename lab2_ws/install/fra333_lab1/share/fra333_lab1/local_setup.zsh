@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/lab2_ws/build/fra333_lab1/ament_cmake_environment_hooks/local_setup.zsh

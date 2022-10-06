@@ -322,8 +322,8 @@ ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/FRA333-A
 # install(PROGRAMS "scripts/dummy_script.py" "DESTINATION" "lib/dummy_description")
 ament_cmake_symlink_install_programs("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/dummy_description" PROGRAMS "scripts/dummy_script.py" "DESTINATION" "lib/dummy_description")
 
-# install(DIRECTORY "config" "launch" "DESTINATION" "share/dummy_description")
-ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/dummy_description" DIRECTORY "config" "launch" "DESTINATION" "share/dummy_description")
+# install(DIRECTORY "config" "launch" "robot" "cad_lab" "DESTINATION" "share/dummy_description")
+ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/dummy_description" DIRECTORY "config" "launch" "robot" "cad_lab" "DESTINATION" "share/dummy_description")
 
 # install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/dummy_description" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dummy_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

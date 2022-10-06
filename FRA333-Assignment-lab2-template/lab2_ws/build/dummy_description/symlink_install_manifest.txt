@@ -5,6 +5,14 @@
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/lib/dummy_description/dummy_script.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/config/dummy_kinematics.rviz
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/launch/display.launch.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/launch/ex_display.launch.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/launch/origin_display.launch.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/robot/dummy_description.xacro
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/cad_lab/base.STL
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/cad_lab/gripper.STL
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/cad_lab/link_1.STL
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/cad_lab/link_2.STL
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/cad_lab/link_3.STL
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/ament_index/resource_index/package_run_dependencies/dummy_description
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/ament_index/resource_index/parent_prefix_path/dummy_description
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/dummy_description/share/dummy_description/environment/ament_prefix_path.sh
