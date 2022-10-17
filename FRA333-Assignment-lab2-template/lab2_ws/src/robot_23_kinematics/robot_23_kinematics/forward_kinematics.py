@@ -2,7 +2,12 @@ import math
 import re 
 import numpy as np
 
-def forward_kin(DH_table,P,H,Hj):
+def forward_kin(Hj):
+    DH_table = np.array([[0,0,0.3,0.],
+                    [0.35,math.pi/2,0.,0.],
+                    [0.35,0.,0.,0.]])
+    P = [[1],[1],[1]]
+    H = np.identity(4)
     for i in range(0,3):
         Tx = DH_table[i][0] 
         Rx = DH_table[i][1] 

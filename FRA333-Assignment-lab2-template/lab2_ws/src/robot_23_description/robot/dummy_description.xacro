@@ -16,10 +16,16 @@
 </material>
 
 <!-- <link name="world"/> -->
-
-<link name="link_0">
+  <link name="base_link">
+    
+  </link>
+  <joint name="joint_base" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0"/>
+  </joint>
+  
+  <link name="link_0">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <!-- <mesh filename="package://fra333_lab1/meshes/link_0.stl"/> -->
         <mesh filename="package://robot_23_description/meshes/base.STL"/>
@@ -38,7 +44,6 @@
 
   <link name="link_1">
     <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
         <mesh filename="package://robot_23_description/meshes/link_1.STL"/>
       </geometry>
@@ -86,7 +91,6 @@
     <parent link="link_3"/>
     <child link="end_effector"/>
     <origin rpy="1.57 0 1.57" xyz="0.16 0 0"/>
-    <axis xyz="0 0 1"/>
   </joint>
 
   <link name="end_effector"> <!-- # แสดง -->

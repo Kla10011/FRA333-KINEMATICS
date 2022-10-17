@@ -1,6 +1,5 @@
-from re import S
+#!/usr/bin/env python3
 import rclpy                            #libraries node
-import sys
 from rclpy.node import Node
 from std_msgs.msg import Float64
 from sensor_msgs.msg import JointState
@@ -13,8 +12,7 @@ import numpy as np
 
 class Server(Node):
     def __init__(self):
-        super().__init__('Server')
-        print("1")
+        super().__init__('kinematics_server')
         # add codes here service
         self.GetPos = self.create_service(GetPosition,'set_joints',self.set_GetPos_callback)
         # self.SolveIK = self.create_service(SolveIK,'/SolIK',self.set_SolIK_callback)
@@ -29,22 +27,21 @@ class Server(Node):
         
         
         # additional attributes # default
-        self.DH_table = np.array([[0,0,0.3,0.],
-                        [0.35,math.pi/2,0.,0.],
-                        [0.35,0.,0.,0.]])
-        self.P = [[1],[1],[1]]
-        self.H = np.identity(4)
+
 
         self.joints = JointState()  #c
         self.joints.name = ['joint_1','joint_2','joint_3']
-        self.joints.position = [0.,0.,0.]
+        self.q = [0.,0.,0.]
+        self.joints.position = self.q
+        
 
 
  
     def set_GetPos_callback(self,request:GetPosition.Request,response:GetPosition.Response):
         # add codes here
         Hj = request.joints.position
-        A = forward_kin(self.DH_table,self.P,self.H,Hj)
+        self.q = request.joints.position
+        A = forward_kin(Hj)
         Posofrobot = Point()
         Posofrobot.x = A[0][3]
         Posofrobot.y = A[1][3]
@@ -58,7 +55,9 @@ class Server(Node):
     #     return response
         
     def timer_callback(self):
-        pass
+        self.joints.header.stamp = self.get_clock().now().to_msg()
+        self.joints.position = self.q
+        self.joint_states.publish(self.joints)
         
 
 def main(args=None):

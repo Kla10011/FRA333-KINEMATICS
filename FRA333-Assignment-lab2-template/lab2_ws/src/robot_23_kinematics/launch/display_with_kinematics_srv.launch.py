@@ -24,8 +24,9 @@ def generate_launch_description():
             ])
         ])
     )
-    kinematics_server = Node(package='robot_23_kinematics',
-                                  executable='kinematics_server.py',
+    kinematics_server = Node(
+        package='robot_23_kinematics',
+        executable='kinematics_server.py',
     )
     
     # Launch Description

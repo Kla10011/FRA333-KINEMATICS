@@ -34,21 +34,27 @@ def generate_launch_description():
                                   parameters=[{'robot_description': robot_description}]
     )
     # Joint State Publisher & GUI
-    joint_state_publisher = Node(package='joint_state_publisher',
-                                    executable='joint_state_publisher',
-                                    name='joint_state_publisher'
-    )
-    joint_state_publisher_gui = Node(package='joint_state_publisher_gui',
-                                        executable='joint_state_publisher_gui',
-                                        name='joint_state_publisher_gui'
-    )
+    # joint_state_publisher = Node(package='joint_state_publisher',
+    #                                 executable='joint_state_publisher',
+    #                                 name='joint_state_publisher'
+    # )
+    # joint_state_publisher_gui = Node(package='joint_state_publisher_gui',
+    #                                     executable='joint_state_publisher_gui',
+    #                                     name='joint_state_publisher_gui'
+    # )
+    # forward_kin = Node(
+    #                                 package='robot_23_kinematics',
+    #                                 executable='forward_kinematics.py'
+    # )
 
     # Launch Description
     launch_description = LaunchDescription()
     launch_description.add_action(rviz_Node)
     launch_description.add_action(robot_state_publisher)
-    launch_description.add_action(joint_state_publisher)
-    launch_description.add_action(joint_state_publisher_gui)
+    # launch_description.add_action(joint_state_publisher)
+    # launch_description.add_action(joint_state_publisher_gui)
+    # launch_description.add_action(forward_kin)
+
     return launch_description
 
 def main(args=None):
