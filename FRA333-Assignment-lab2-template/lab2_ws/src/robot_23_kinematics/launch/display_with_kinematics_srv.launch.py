@@ -15,16 +15,18 @@ def generate_launch_description():
     #
     # You must specify the package, folder, and the name
     #
-    # display = IncludeLaunchDescription(
-    #
-    #      PythonLaunchDescriptionSource([
-    #         PathJoinSubstitution([
-    #             FindPackageShare('package_name'),
-    #             'folder_name',
-    #             'launch_file.launch.py'
-    #         ])
-    #     ])
-    # )
+    display = IncludeLaunchDescription(
+         PythonLaunchDescriptionSource([
+            PathJoinSubstitution([
+                FindPackageShare('robot_23_description'),
+                'launch',
+                'display.launch.py'
+            ])
+        ])
+    )
+    kinematics_server = Node(package='robot_23_kinematics',
+                                  executable='kinematics_server.py',
+    )
     
     # Launch Description
     launch_description = LaunchDescription()

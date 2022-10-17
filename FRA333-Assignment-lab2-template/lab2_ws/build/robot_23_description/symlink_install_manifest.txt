@@ -3,6 +3,7 @@
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_description/lib/python3.8/site-packages/robot_23_description/__init__.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_description/lib/python3.8/site-packages/robot_23_description/dummy_module.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_description/lib/robot_23_description/dummy_script.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_description/share/robot_23_description/scripts/dummy_script.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_description/share/robot_23_description/config/dummy_kinematics.rviz
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_description/share/robot_23_description/launch/display.launch.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_description/share/robot_23_description/launch/ex_display.launch.py

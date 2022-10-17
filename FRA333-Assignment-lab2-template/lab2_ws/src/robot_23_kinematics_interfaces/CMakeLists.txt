@@ -35,11 +35,13 @@ endif()
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs)
 find_package(std_msgs)
+find_package(sensor_msgs)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/SetPose.srv"
+  "srv/GetPosition.srv"
   DEPENDENCIES geometry_msgs
   DEPENDENCIES std_msgs
+  DEPENDENCIES sensor_msgs
 )
 
 

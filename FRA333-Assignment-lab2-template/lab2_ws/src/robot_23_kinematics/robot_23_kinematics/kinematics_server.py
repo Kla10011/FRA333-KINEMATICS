@@ -14,20 +14,28 @@ import numpy as np
 class Server(Node):
     def __init__(self):
         super().__init__('Server')
+        print("1")
         # add codes here service
-        self.GetPos = self.create_service(GetPosition,'/set_joints',self.set_GetPos_callback)
+        self.GetPos = self.create_service(GetPosition,'set_joints',self.set_GetPos_callback)
         # self.SolveIK = self.create_service(SolveIK,'/SolIK',self.set_SolIK_callback)
+
+        
         # add codes here topic
-        self.joint_states = self.create_publisher(Float64,'/joint_states',10)         #(type,'topic',จำนวนข้อมูลที่เก็บได้ใน topic)
+        self.joint_states = self.create_publisher(JointState,'joint_states',10)         #(type,'topic',จำนวนข้อมูลที่เก็บได้ใน topic)
+        
+        
         # add codes here timer callback
         self.timer = self.create_timer(1/10,self.timer_callback)                      # 5 Hz      
+        
+        
         # additional attributes # default
         self.DH_table = np.array([[0,0,0.3,0.],
                         [0.35,math.pi/2,0.,0.],
                         [0.35,0.,0.,0.]])
         self.P = [[1],[1],[1]]
         self.H = np.identity(4)
-        self.joints = JointState()
+
+        self.joints = JointState()  #c
         self.joints.name = ['joint_1','joint_2','joint_3']
         self.joints.position = [0.,0.,0.]
 
@@ -37,10 +45,12 @@ class Server(Node):
         # add codes here
         Hj = request.joints.position
         A = forward_kin(self.DH_table,self.P,self.H,Hj)
-        response.x = A[0][3]
-        response.y = A[1][3]
-        response.z = A[2][3]
-        return response
+        Posofrobot = Point()
+        Posofrobot.x = A[0][3]
+        Posofrobot.y = A[1][3]
+        Posofrobot.z = A[2][3]
+        response.position = Posofrobot 
+        return response 
 
     # def set_SolIK_callback(self,request:SolveIK.Request,response:SolveIK.Response):
     #     # add codes here
@@ -48,11 +58,7 @@ class Server(Node):
     #     return response
         
     def timer_callback(self):
-        noise = Float64()
-        mu, sigma = self.mean, self.variance                          # mean and variance to standard deviation
-        noise.data = np.random.normal(mu, sigma**0.5)   # จำนวน random
-        self.noise_pub.publish(noise)
-        print(self.rate)
+        pass
         
 
 def main(args=None):

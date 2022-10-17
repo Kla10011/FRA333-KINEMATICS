@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/pythonpath.sh
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/__init__.py
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/dummy_module.py
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/forward_kinematics.py
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/kinematics_server.py
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/test code.ipynb
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/robot_23_kinematics/dummy_script.py
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/launch/display_with_kinematics_srv.launch.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/scripts/dummy_script.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/__init__.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/dummy_module.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/forward_kinematics.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/kinematics_server.py
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/test code.ipynb
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/ament_index/resource_index/package_run_dependencies/robot_23_kinematics
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/ament_index/resource_index/parent_prefix_path/robot_23_kinematics
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/path.sh
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/path.dsv
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/local_setup.bash
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/local_setup.sh
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/local_setup.zsh
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/local_setup.dsv
+-- Symlinking: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/package.dsv
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/ament_index/resource_index/packages/robot_23_kinematics
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/cmake/robot_23_kinematicsConfig.cmake
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/cmake/robot_23_kinematicsConfig-version.cmake
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/package.xml
+Listing '/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics'...

@@ -76,7 +76,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://robot_23_description/meshes/link_3.STL"/>
+        <mesh filename="package://robot_23_description/meshes/gripper.STL"/>
       </geometry>
       <material name="Orange"/>
     </visual>
@@ -85,7 +85,7 @@
   <joint name="joint_eff" type="fixed">
     <parent link="link_3"/>
     <child link="end_effector"/>
-    <origin rpy="1.57 0 1.57" xyz="0.35 0 0"/>
+    <origin rpy="1.57 0 1.57" xyz="0.16 0 0"/>
     <axis xyz="0 0 1"/>
   </joint>
 

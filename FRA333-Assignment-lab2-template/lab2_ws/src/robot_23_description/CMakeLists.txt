@@ -35,6 +35,7 @@ install(PROGRAMS
 ################ INSTALL LAUNCH, ETC #################
 install(DIRECTORY
   # add directories here
+  scripts
   config 
   launch
   robot

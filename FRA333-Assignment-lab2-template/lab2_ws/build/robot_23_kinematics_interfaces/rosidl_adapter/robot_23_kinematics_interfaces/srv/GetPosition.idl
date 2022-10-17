@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_23_kinematics_interfaces/srv/GetPosition.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "sensor_msgs/msg/JointState.idl"
+
+module robot_23_kinematics_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " add resquest")
+    struct GetPosition_Request {
+      sensor_msgs::msg::JointState joints;
+    };
+    @verbatim (language="comment", text=
+      " add response")
+    struct GetPosition_Response {
+      geometry_msgs::msg::Point position;
+    };
+  };
+};

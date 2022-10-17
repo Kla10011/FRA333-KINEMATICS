@@ -34,6 +34,8 @@ install(PROGRAMS
 ################ INSTALL LAUNCH, ETC #################
 install(DIRECTORY
   launch
+  scripts
+  robot_23_kinematics
   # add directories here
   DESTINATION share/${PROJECT_NAME})
 

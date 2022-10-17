@@ -47,9 +47,8 @@ def generate_launch_description():
     launch_description = LaunchDescription()
     launch_description.add_action(rviz_Node)
     launch_description.add_action(robot_state_publisher)
-    # launch_description.add_action(joint_state_publisher)
+    launch_description.add_action(joint_state_publisher)
     launch_description.add_action(joint_state_publisher_gui)
-    
     return launch_description
 
 def main(args=None):
