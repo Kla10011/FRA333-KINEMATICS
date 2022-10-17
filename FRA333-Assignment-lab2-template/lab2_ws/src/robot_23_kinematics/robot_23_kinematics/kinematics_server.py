@@ -37,7 +37,9 @@ class Server(Node):
         # add codes here
         Hj = request.joints.position
         A = forward_kin(self.DH_table,self.P,self.H,Hj)
-        response.position = A
+        response.x = A[0][3]
+        response.y = A[1][3]
+        response.z = A[2][3]
         return response
 
     # def set_SolIK_callback(self,request:SolveIK.Request,response:SolveIK.Response):

@@ -47,6 +47,6 @@ def forward_kin(DH_table,P,H,Hj):
                         [0.,-1.,0.,0.16],
                         [0.,0.,0.,1.]])
         H0_e = H@H3_e
-    
+        print(H0_e)
     return H0_e
         
