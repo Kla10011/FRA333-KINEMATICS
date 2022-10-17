@@ -1,0 +1,20 @@
+[0.031s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics -- -j12 -l12
+[0.078s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics -- -j12 -l12
+[0.098s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics
+[0.108s] -- Install configuration: ""
+[0.108s] -- Execute custom install script
+[0.108s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/pythonpath.sh
+[0.108s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/pythonpath.dsv
+[0.111s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/__init__.py
+[0.111s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/dummy_module.py
+[0.111s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/forward_kinematics.py
+[0.111s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/test code.ipynb
+[0.112s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[0.112s]   ament_cmake_symlink_install_programs() can't find
+[0.112s]   '/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics/scripts/dummy_script.py'
+[0.113s] Call Stack (most recent call first):
+[0.114s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_programs)
+[0.114s]   cmake_install.cmake:41 (include)
+[0.114s] 
+[0.115s] 
+[0.116s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics

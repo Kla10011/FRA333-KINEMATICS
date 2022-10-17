@@ -319,8 +319,8 @@ ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assig
 # install(DIRECTORY "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics/robot_23_kinematics/" "DESTINATION" "lib/python3.8/site-packages/robot_23_kinematics" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics" DIRECTORY "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics/robot_23_kinematics/" "DESTINATION" "lib/python3.8/site-packages/robot_23_kinematics" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
-# install(PROGRAMS "scripts/dummy_script.py" "DESTINATION" "lib/robot_23_kinematics")
-ament_cmake_symlink_install_programs("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics" PROGRAMS "scripts/dummy_script.py" "DESTINATION" "lib/robot_23_kinematics")
+# install(PROGRAMS "scripts/kinematics_server.py" "DESTINATION" "lib/robot_23_kinematics")
+ament_cmake_symlink_install_programs("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics" PROGRAMS "scripts/kinematics_server.py" "DESTINATION" "lib/robot_23_kinematics")
 
 # install(DIRECTORY "launch" "scripts" "robot_23_kinematics" "DESTINATION" "share/robot_23_kinematics")
 ament_cmake_symlink_install_directory("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics" DIRECTORY "launch" "scripts" "robot_23_kinematics" "DESTINATION" "share/robot_23_kinematics")

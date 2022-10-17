@@ -3,15 +3,13 @@
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/__init__.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/dummy_module.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/forward_kinematics.py
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/kinematics_server.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/test code.ipynb
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/robot_23_kinematics/dummy_script.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/robot_23_kinematics/kinematics_server.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/launch/display_with_kinematics_srv.launch.py
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/scripts/dummy_script.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/scripts/kinematics_server.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/__init__.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/dummy_module.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/forward_kinematics.py
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/kinematics_server.py
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/test code.ipynb
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/ament_index/resource_index/package_run_dependencies/robot_23_kinematics
 /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/ament_index/resource_index/parent_prefix_path/robot_23_kinematics
