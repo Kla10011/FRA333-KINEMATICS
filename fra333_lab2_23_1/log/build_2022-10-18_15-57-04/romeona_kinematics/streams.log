@@ -1,0 +1,35 @@
+[0.024s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics -- -j12 -l12
+[0.056s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics -- -j12 -l12
+[0.088s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics
+[0.093s] -- Install configuration: ""
+[0.094s] -- Execute custom install script
+[0.094s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/environment/pythonpath.sh
+[0.094s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/environment/pythonpath.dsv
+[0.095s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/lib/python3.8/site-packages/romeona_kinematics/__init__.py
+[0.095s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/lib/python3.8/site-packages/romeona_kinematics/forward_kinematics.py
+[0.095s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/lib/python3.8/site-packages/romeona_kinematics/inverse_kinematics.py
+[0.095s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/lib/romeona_kinematics/kinematics_server.py
+[0.096s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/launch/display_with_kinematics_server.launch.py
+[0.096s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/scripts/kinematics_server.py
+[0.096s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/romeona_kinematics/__init__.py
+[0.096s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/romeona_kinematics/forward_kinematics.py
+[0.097s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/romeona_kinematics/inverse_kinematics.py
+[0.097s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/ament_index/resource_index/package_run_dependencies/romeona_kinematics
+[0.097s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/ament_index/resource_index/parent_prefix_path/romeona_kinematics
+[0.097s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/environment/ament_prefix_path.sh
+[0.098s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/environment/ament_prefix_path.dsv
+[0.098s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/environment/path.sh
+[0.098s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/environment/path.dsv
+[0.098s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/local_setup.bash
+[0.098s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/local_setup.sh
+[0.099s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/local_setup.zsh
+[0.099s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/local_setup.dsv
+[0.099s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/package.dsv
+[0.105s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/ament_index/resource_index/packages/romeona_kinematics
+[0.105s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/cmake/romeona_kinematicsConfig.cmake
+[0.106s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/cmake/romeona_kinematicsConfig-version.cmake
+[0.106s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/share/romeona_kinematics/package.xml
+[0.132s] Listing '/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/lib/python3.8/site-packages/romeona_kinematics'...
+[0.132s] Compiling '/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/lib/python3.8/site-packages/romeona_kinematics/forward_kinematics.py'...
+[0.132s] Compiling '/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/install/romeona_kinematics/lib/python3.8/site-packages/romeona_kinematics/inverse_kinematics.py'...
+[0.160s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics

@@ -1,0 +1,4 @@
+source;share/romeona_kinematics/local_setup.bash
+source;share/romeona_kinematics/local_setup.dsv
+source;share/romeona_kinematics/local_setup.sh
+source;share/romeona_kinematics/local_setup.zsh

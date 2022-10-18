@@ -1,0 +1,7 @@
+{
+  "package_name": "romeona_kinematics_interfaces",
+  "non_idl_tuples": [
+    "/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/src/romeona_kinematics_interfaces:srv/GetPosition.srv",
+    "/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/src/romeona_kinematics_interfaces:srv/SolveIK.srv"
+  ]
+}
