@@ -39,9 +39,8 @@ class Server(Node):
  
     def set_GetPos_callback(self,request:GetPosition.Request,response:GetPosition.Response):
         # add codes here
-        Hj = request.joints.position
         self.q = request.joints.position
-        A = forward_kin(Hj)
+        A = forward_kin(self.q)
         Posofrobot = Point()
         Posofrobot.x = A[0][3]
         Posofrobot.y = A[1][3]

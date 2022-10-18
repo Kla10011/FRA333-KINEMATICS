@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/dummy_description/launch/ex_display.launch.py

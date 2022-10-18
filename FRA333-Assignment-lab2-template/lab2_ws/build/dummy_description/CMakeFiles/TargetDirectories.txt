@@ -1,9 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/install/strip.dir
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/install/local.dir
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/install.dir
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/list_install_components.dir
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/rebuild_cache.dir
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/edit_cache.dir
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/test.dir
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/dummy_description_uninstall.dir
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/dummy_description/CMakeFiles/uninstall.dir
