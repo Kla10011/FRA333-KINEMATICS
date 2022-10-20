@@ -7,9 +7,6 @@ Panels:
         - /Global Options1
         - /Status1
         - /RobotModel1
-        - /RobotModel1/Links1
-        - /RobotModel1/Links1/end_effector1
-        - /RobotModel1/Links1/end_effector1/Position1
       Splitter Ratio: 0.5
     Tree Height: 617
   - Class: rviz_common/Selection
@@ -239,5 +236,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 76
-  Y: 60
+  X: 598
+  Y: 195

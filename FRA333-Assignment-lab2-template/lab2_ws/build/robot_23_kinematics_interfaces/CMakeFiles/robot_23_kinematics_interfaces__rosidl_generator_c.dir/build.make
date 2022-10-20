@@ -71,6 +71,7 @@ rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h: /opt/ros/f
 rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h: /opt/ros/foxy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h: rosidl_adapter/robot_23_kinematics_interfaces/srv/GetPosition.idl
+rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h: rosidl_adapter/robot_23_kinematics_interfaces/srv/SolveIK.idl
 rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h: /opt/ros/foxy/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h: /opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h: /opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -172,8 +173,23 @@ rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__struc
 rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__type_support.h: rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__type_support.h
 
+rosidl_generator_c/robot_23_kinematics_interfaces/srv/solve_ik.h: rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_23_kinematics_interfaces/srv/solve_ik.h
+
+rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.h: rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.h
+
+rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__struct.h: rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__struct.h
+
+rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__type_support.h: rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__type_support.h
+
 rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c: rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c
+
+rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c: rosidl_generator_c/robot_23_kinematics_interfaces/srv/get_position.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c
 
 CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c.o: CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c.o: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c
@@ -188,14 +204,29 @@ CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c -o CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c.s
 
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.o: CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.o: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.o   -c /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c
+
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c > CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.i
+
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c -o CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.s
+
 # Object files for target robot_23_kinematics_interfaces__rosidl_generator_c
 robot_23_kinematics_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c.o"
+"CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c.o" \
+"CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.o"
 
 # External object files for target robot_23_kinematics_interfaces__rosidl_generator_c
 robot_23_kinematics_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 librobot_23_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c.o
+librobot_23_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c.o
 librobot_23_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/build.make
 librobot_23_kinematics_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 librobot_23_kinematics_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
@@ -225,7 +256,7 @@ librobot_23_kinematics_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/libr
 librobot_23_kinematics_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/librcpputils.so
 librobot_23_kinematics_interfaces__rosidl_generator_c.so: /opt/ros/foxy/lib/librcutils.so
 librobot_23_kinematics_interfaces__rosidl_generator_c.so: CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library librobot_23_kinematics_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library librobot_23_kinematics_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -241,7 +272,12 @@ CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl
 CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.h
 CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__struct.h
 CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__type_support.h
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/solve_ik.h
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.h
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__struct.h
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__type_support.h
 CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.c
+CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.c
 	cd /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_23_kinematics_interfaces__rosidl_generator_c.dir/depend
 

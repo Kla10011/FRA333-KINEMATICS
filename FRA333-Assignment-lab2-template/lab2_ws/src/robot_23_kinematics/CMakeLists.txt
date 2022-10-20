@@ -33,10 +33,10 @@ install(PROGRAMS
 
 ################ INSTALL LAUNCH, ETC #################
 install(DIRECTORY
+# add directories here
   launch
   scripts
   robot_23_kinematics
-  # add directories here
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()

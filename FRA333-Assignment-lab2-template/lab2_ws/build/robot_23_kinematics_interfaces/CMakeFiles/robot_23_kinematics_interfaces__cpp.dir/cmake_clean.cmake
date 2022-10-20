@@ -3,7 +3,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/robot_23_kinematics_interfaces/srv/detail/get_position__builder.hpp"
   "rosidl_generator_cpp/robot_23_kinematics_interfaces/srv/detail/get_position__struct.hpp"
   "rosidl_generator_cpp/robot_23_kinematics_interfaces/srv/detail/get_position__traits.hpp"
+  "rosidl_generator_cpp/robot_23_kinematics_interfaces/srv/detail/solve_ik__builder.hpp"
+  "rosidl_generator_cpp/robot_23_kinematics_interfaces/srv/detail/solve_ik__struct.hpp"
+  "rosidl_generator_cpp/robot_23_kinematics_interfaces/srv/detail/solve_ik__traits.hpp"
   "rosidl_generator_cpp/robot_23_kinematics_interfaces/srv/get_position.hpp"
+  "rosidl_generator_cpp/robot_23_kinematics_interfaces/srv/solve_ik.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

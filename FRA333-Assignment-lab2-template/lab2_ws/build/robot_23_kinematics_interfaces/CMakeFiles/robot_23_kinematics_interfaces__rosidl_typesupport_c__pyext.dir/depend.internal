@@ -105,3 +105,6 @@ CMakeFiles/robot_23_kinematics_interfaces__rosidl_typesupport_c__pyext.dir/rosid
  rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__functions.h
  rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__struct.h
  rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/get_position__type_support.h
+ rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__functions.h
+ rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__struct.h
+ rosidl_generator_c/robot_23_kinematics_interfaces/srv/detail/solve_ik__type_support.h

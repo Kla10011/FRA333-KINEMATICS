@@ -56,6 +56,9 @@ include CMakeFiles/robot_23_kinematics_interfaces.dir/progress.make
 CMakeFiles/robot_23_kinematics_interfaces: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces/srv/GetPosition.srv
 CMakeFiles/robot_23_kinematics_interfaces: rosidl_cmake/srv/GetPosition_Request.msg
 CMakeFiles/robot_23_kinematics_interfaces: rosidl_cmake/srv/GetPosition_Response.msg
+CMakeFiles/robot_23_kinematics_interfaces: /home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces/srv/SolveIK.srv
+CMakeFiles/robot_23_kinematics_interfaces: rosidl_cmake/srv/SolveIK_Request.msg
+CMakeFiles/robot_23_kinematics_interfaces: rosidl_cmake/srv/SolveIK_Response.msg
 CMakeFiles/robot_23_kinematics_interfaces: /opt/ros/foxy/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/robot_23_kinematics_interfaces: /opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/robot_23_kinematics_interfaces: /opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl

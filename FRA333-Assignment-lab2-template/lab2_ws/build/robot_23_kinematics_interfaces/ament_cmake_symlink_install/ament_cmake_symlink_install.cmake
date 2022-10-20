@@ -370,6 +370,9 @@ include("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_w
 # install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_adapter/robot_23_kinematics_interfaces/srv/GetPosition.idl" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
 ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_adapter/robot_23_kinematics_interfaces/srv/GetPosition.idl" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
 
+# install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_adapter/robot_23_kinematics_interfaces/srv/SolveIK.idl" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
+ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_adapter/robot_23_kinematics_interfaces/srv/SolveIK.idl" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
+
 # install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces/srv/GetPosition.srv" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
 ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces/srv/GetPosition.srv" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
 
@@ -378,6 +381,15 @@ ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assig
 
 # install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_cmake/srv/GetPosition_Response.msg" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
 ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_cmake/srv/GetPosition_Response.msg" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
+
+# install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces/srv/SolveIK.srv" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
+ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces/srv/SolveIK.srv" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
+
+# install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_cmake/srv/SolveIK_Request.msg" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
+ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_cmake/srv/SolveIK_Request.msg" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
+
+# install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_cmake/srv/SolveIK_Response.msg" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
+ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/rosidl_cmake/srv/SolveIK_Response.msg" "DESTINATION" "share/robot_23_kinematics_interfaces/srv")
 
 # install(FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_23_kinematics_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics_interfaces" FILES "/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_23_kinematics_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

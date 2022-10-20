@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/robot_23_kinematics_interfaces/srv/__init__.py"
   "../rosidl_generator_py/robot_23_kinematics_interfaces/srv/_get_position.py"
   "../rosidl_generator_py/robot_23_kinematics_interfaces/srv/_get_position_s.c"
+  "../rosidl_generator_py/robot_23_kinematics_interfaces/srv/_solve_ik.py"
+  "../rosidl_generator_py/robot_23_kinematics_interfaces/srv/_solve_ik_s.c"
   "CMakeFiles/robot_23_kinematics_interfaces__py"
 )
 

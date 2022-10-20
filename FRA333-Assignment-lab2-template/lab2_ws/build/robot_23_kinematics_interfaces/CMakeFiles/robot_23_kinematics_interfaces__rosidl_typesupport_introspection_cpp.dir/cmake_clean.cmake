@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_23_kinematics_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_23_kinematics_interfaces/srv/detail/get_position__type_support.cpp.o"
+  "CMakeFiles/robot_23_kinematics_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_23_kinematics_interfaces/srv/detail/solve_ik__type_support.cpp.o"
   "librobot_23_kinematics_interfaces__rosidl_typesupport_introspection_cpp.pdb"
   "librobot_23_kinematics_interfaces__rosidl_typesupport_introspection_cpp.so"
   "rosidl_typesupport_introspection_cpp/robot_23_kinematics_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/robot_23_kinematics_interfaces/srv/detail/get_position__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/robot_23_kinematics_interfaces/srv/detail/solve_ik__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/robot_23_kinematics_interfaces/srv/detail/solve_ik__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.
