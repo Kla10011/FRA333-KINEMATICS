@@ -29,6 +29,8 @@ def inverse_kinematics(p,gamma):
         s_3 = g2*((1-c_3**2)**0.5)
         q_3 = np.arctan2(s_3,c_3)
     else:
+        flag = False
+
         
     #Q2
     c_2 = (l_2 + l_3*c_3)*(g1*((x**2+y**2)**0.5)-l_1) + (l_3*s_3)*(z-h)
