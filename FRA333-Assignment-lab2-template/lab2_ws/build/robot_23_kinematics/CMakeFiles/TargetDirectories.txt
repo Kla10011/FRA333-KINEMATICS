@@ -1,0 +1,9 @@
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/install/strip.dir
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/install/local.dir
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/install.dir
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/list_install_components.dir
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/rebuild_cache.dir
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/edit_cache.dir
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/test.dir
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/robot_23_kinematics_uninstall.dir
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/build/robot_23_kinematics/CMakeFiles/uninstall.dir

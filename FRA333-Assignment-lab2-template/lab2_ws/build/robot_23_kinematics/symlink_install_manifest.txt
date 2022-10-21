@@ -1,0 +1,28 @@
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/pythonpath.sh
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/pythonpath.dsv
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/__init__.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/forward_kinematics.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/inverse_kinematics.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/python3.8/site-packages/robot_23_kinematics/test code.ipynb
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/lib/robot_23_kinematics/kinematics_server.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/launch/display_with_kinematics_srv.launch.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/scripts/kinematics_server.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/__init__.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/forward_kinematics.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/inverse_kinematics.py
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/robot_23_kinematics/test code.ipynb
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/ament_index/resource_index/package_run_dependencies/robot_23_kinematics
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/ament_index/resource_index/parent_prefix_path/robot_23_kinematics
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/ament_prefix_path.sh
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/ament_prefix_path.dsv
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/path.sh
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/environment/path.dsv
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/local_setup.bash
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/local_setup.sh
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/local_setup.zsh
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/local_setup.dsv
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/package.dsv
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/ament_index/resource_index/packages/robot_23_kinematics
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/cmake/robot_23_kinematicsConfig.cmake
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/cmake/robot_23_kinematicsConfig-version.cmake
+/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/install/robot_23_kinematics/share/robot_23_kinematics/package.xml
