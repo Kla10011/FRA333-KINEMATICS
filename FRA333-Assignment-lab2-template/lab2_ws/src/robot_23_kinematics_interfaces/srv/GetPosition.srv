@@ -1,5 +1,0 @@
-# add resquest
-sensor_msgs/JointState joints 
----
-# add response
-geometry_msgs/Point position

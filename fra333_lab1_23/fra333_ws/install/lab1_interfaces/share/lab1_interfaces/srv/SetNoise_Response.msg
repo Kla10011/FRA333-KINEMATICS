@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces/rosidl_cmake/srv/SetNoise_Response.msg

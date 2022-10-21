@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package/rosidl_generator_cpp/my_first_package/srv/detail/rand_goal__traits.hpp

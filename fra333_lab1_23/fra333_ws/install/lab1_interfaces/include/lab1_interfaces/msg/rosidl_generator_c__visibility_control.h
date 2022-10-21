@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab1_23/fra333_ws/build/lab1_interfaces/rosidl_generator_c/lab1_interfaces/msg/rosidl_generator_c__visibility_control.h

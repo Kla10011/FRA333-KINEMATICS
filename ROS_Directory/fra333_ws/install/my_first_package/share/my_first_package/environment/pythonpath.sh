@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/build/my_first_package/ament_cmake_environment_hooks/pythonpath.sh

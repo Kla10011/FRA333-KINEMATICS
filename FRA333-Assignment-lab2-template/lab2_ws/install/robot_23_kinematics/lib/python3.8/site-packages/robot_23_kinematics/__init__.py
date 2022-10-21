@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/FRA333-Assignment-lab2-template/lab2_ws/src/robot_23_kinematics/robot_23_kinematics/__init__.py

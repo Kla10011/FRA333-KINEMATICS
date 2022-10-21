@@ -1,1 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/ROS_Directory/fra333_ws/src/my_first_package/launch/06_myrobot_state_publisher.launch .py
