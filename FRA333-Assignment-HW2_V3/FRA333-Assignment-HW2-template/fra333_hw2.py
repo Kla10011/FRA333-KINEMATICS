@@ -25,6 +25,20 @@ def endEffectorJacobianHW2(q):
           [i_51, i_52, i_53],
           [i_61, i_62, i_63] ]
     '''
+    R,P,R_e,p_e = FKHW2(q)
+    zjj = np.array([[0],[0],[1]])
+    z0j = np.zeros((1,3))
+    J_linear = np.zeros((1,3))
+    J_e = np.zeros((2,1))
+    for j in range(3):
+        z0j[0][j] = R[j]@zjj
+        J_linear[0][j] = np.cross(zjj,(p_e-P[j]))
+    
+    J_e[0][0] = z0j
+    J_e[1][0] = J_linear
+
+    return J_e
+    
     
 
 # Question 2
