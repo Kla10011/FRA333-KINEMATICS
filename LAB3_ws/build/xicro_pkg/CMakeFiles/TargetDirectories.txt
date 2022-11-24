@@ -1,0 +1,9 @@
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/install/strip.dir
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/install/local.dir
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/install.dir
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/list_install_components.dir
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/rebuild_cache.dir
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/edit_cache.dir
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/test.dir
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/xicro_pkg_uninstall.dir
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/CMakeFiles/uninstall.dir

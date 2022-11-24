@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_pkg/scripts/xicro_node_read_imu_ID_3_arduino.py

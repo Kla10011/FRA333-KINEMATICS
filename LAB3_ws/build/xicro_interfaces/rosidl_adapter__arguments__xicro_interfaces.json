@@ -1,0 +1,30 @@
+{
+  "package_name": "xicro_interfaces",
+  "non_idl_tuples": [
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Bool.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Uint8.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Uint16.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Uint32.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Uint64.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Int8.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Int16.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Int32.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Int64.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Float32.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Imu.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/BatteryState.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/JointState.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Temperature.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Point.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Pose.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/PoseWithCovariance.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Quaternion.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Pose2D.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Twist.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/DemoInput.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/DemoOutput.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Vector3.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Time.msg",
+    "/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_interfaces:msg/Header.msg"
+  ]
+}

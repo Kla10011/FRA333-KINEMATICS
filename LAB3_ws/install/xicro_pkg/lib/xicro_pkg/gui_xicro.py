@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/src/Xicro/xicro_pkg/scripts/gui_xicro.py

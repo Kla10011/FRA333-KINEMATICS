@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/LAB3/src/ros2_control_demo_3r_robot-main/scripts/trajectory_gen.py

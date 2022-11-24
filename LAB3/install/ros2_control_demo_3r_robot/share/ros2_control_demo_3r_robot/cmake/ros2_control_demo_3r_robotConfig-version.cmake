@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot/ament_cmake_core/ros2_control_demo_3r_robotConfig-version.cmake

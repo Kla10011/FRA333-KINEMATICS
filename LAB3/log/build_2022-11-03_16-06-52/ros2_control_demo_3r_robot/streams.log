@@ -1,0 +1,53 @@
+[0.032s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/LAB3/src/ros2_control_demo_3r_robot-main -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot
+[0.067s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.067s] -- Found ament_cmake_core: 0.9.9 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[0.110s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.478s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.493s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.038s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.114s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.117s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.352s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[1.499s] -- Configuring done
+[1.507s] -- Generating done
+[1.512s] -- Build files have been written to: /home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot
+[1.526s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/LAB3/src/ros2_control_demo_3r_robot-main -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot
+[1.535s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot -- -j4 -l4
+[1.630s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot -- -j4 -l4
+[1.709s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot
+[1.729s] -- Install configuration: ""
+[1.729s] -- Execute custom install script
+[1.730s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/environment/pythonpath.sh
+[1.731s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/environment/pythonpath.dsv
+[1.732s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/lib/python3.8/site-packages/ros2_control_demo_3r_robot/__init__.py
+[1.733s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/lib/ros2_control_demo_3r_robot/trajectory_gen.py
+[1.734s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/description/example_gazebo.xacro
+[1.734s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/description/example_include.xacro
+[1.735s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/description/example_robot.urdf.xacro
+[1.736s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/launch/dummy_gazebo.launch.py
+[1.736s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/config/myrobot_controllers.yaml
+[1.737s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/scripts/trajectory_gen.py
+[1.738s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/meshes/link_0.stl
+[1.738s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/meshes/link_1.stl
+[1.738s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/meshes/link_2.stl
+[1.738s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/meshes/link_3.stl
+[1.739s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_3r_robot
+[1.739s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_3r_robot
+[1.740s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/environment/ament_prefix_path.sh
+[1.740s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/environment/ament_prefix_path.dsv
+[1.741s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/environment/path.sh
+[1.742s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/environment/path.dsv
+[1.743s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/local_setup.bash
+[1.743s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/local_setup.sh
+[1.745s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/local_setup.zsh
+[1.745s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/local_setup.dsv
+[1.745s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/package.dsv
+[1.767s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ament_index/resource_index/packages/ros2_control_demo_3r_robot
+[1.767s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/cmake/ros2_control_demo_3r_robotConfig.cmake
+[1.767s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/cmake/ros2_control_demo_3r_robotConfig-version.cmake
+[1.768s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/share/ros2_control_demo_3r_robot/package.xml
+[1.843s] Listing '/home/ronnakon/FRA333-KINEMATICS/LAB3/install/ros2_control_demo_3r_robot/lib/python3.8/site-packages/ros2_control_demo_3r_robot'...
+[1.861s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/LAB3/build/ros2_control_demo_3r_robot

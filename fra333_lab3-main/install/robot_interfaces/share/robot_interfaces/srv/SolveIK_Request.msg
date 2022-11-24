@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/robot_interfaces/rosidl_cmake/srv/SolveIK_Request.msg

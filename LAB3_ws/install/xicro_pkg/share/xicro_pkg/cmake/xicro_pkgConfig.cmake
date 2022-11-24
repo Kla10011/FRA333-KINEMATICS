@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/LAB3_ws/build/xicro_pkg/ament_cmake_core/xicro_pkgConfig.cmake

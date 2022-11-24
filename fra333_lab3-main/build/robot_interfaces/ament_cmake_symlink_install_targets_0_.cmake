@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/robot_interfaces/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" "TARGETS" "robot_interfaces__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

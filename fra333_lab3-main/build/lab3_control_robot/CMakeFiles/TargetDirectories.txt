@@ -1,0 +1,9 @@
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/install/strip.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/install/local.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/install.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/list_install_components.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/rebuild_cache.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/edit_cache.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/test.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/lab3_control_robot_uninstall.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot/CMakeFiles/uninstall.dir
