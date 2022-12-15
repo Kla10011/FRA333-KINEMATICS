@@ -71,6 +71,8 @@ class Trajectory_publisher(Node):
             self.pos_init[0] += round(pos[0],2)
             self.pos_init[1] += round(pos[1],2)
             self.pos_init[2] += round(pos[2],2)
+
+            # limit
             if self.pos_init[0] >= 0.67:
                 self.pos_init[0] = 0.67
             if self.pos_init[1] >= 0.67:

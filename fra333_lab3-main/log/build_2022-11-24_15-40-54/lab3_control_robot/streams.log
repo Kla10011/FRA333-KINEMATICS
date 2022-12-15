@@ -1,0 +1,40 @@
+[0.054s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot -- -j4 -l4
+[0.242s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot -- -j4 -l4
+[0.398s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot
+[0.462s] -- Install configuration: ""
+[0.463s] -- Execute custom install script
+[0.463s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/environment/pythonpath.sh
+[0.463s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/environment/pythonpath.dsv
+[0.468s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/lib/python3.8/site-packages/lab3_control_robot/__init__.py
+[0.468s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/lib/python3.8/site-packages/lab3_control_robot/cheat_tool.py
+[0.468s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/lib/lab3_control_robot/trajectory_gen.py
+[0.468s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/description/example_gazebo.xacro
+[0.472s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/description/example_include.xacro
+[0.473s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/description/example_robot.urdf.xacro
+[0.473s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/launch/dummy_gazebo.launch.py
+[0.475s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/config/myrobot_controllers.yaml
+[0.477s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/scripts/data.json
+[0.479s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/scripts/trajectory_gen.py
+[0.482s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/meshes/link_0.stl
+[0.492s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/meshes/link_1.stl
+[0.492s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/meshes/link_2.stl
+[0.492s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/meshes/link_3.stl
+[0.493s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/lab3_control_robot/__init__.py
+[0.493s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/lab3_control_robot/cheat_tool.py
+[0.493s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/ament_index/resource_index/package_run_dependencies/lab3_control_robot
+[0.493s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/ament_index/resource_index/parent_prefix_path/lab3_control_robot
+[0.493s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/environment/ament_prefix_path.sh
+[0.493s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/environment/ament_prefix_path.dsv
+[0.494s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/environment/path.sh
+[0.494s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/environment/path.dsv
+[0.520s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/local_setup.bash
+[0.524s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/local_setup.sh
+[0.525s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/local_setup.zsh
+[0.525s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/local_setup.dsv
+[0.525s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/package.dsv
+[0.544s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/ament_index/resource_index/packages/lab3_control_robot
+[0.544s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/cmake/lab3_control_robotConfig.cmake
+[0.545s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/cmake/lab3_control_robotConfig-version.cmake
+[0.545s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/share/lab3_control_robot/package.xml
+[0.735s] Listing '/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/install/lab3_control_robot/lib/python3.8/site-packages/lab3_control_robot'...
+[0.780s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab3-main/build/lab3_control_robot
