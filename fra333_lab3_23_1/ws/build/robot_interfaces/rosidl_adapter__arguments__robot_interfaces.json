@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/ronnakon/FRA333-KINEMATICS/fra333_lab3_23_1/ws/src/robot_interfaces:srv/SetGoal.srv",
+    "/home/ronnakon/FRA333-KINEMATICS/fra333_lab3_23_1/ws/src/robot_interfaces:srv/SolveIK.srv"
+  ]
+}

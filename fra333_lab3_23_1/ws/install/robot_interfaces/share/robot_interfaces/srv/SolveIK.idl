@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_interfaces/srv/SolveIK.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "sensor_msgs/msg/JointState.idl"
+#include "std_msgs/msg/Bool.idl"
+
+module robot_interfaces {
+  module srv {
+    typedef int32 int32__2[2];
+    @verbatim (language="comment", text=
+      " add resquest")
+    struct SolveIK_Request {
+      geometry_msgs::msg::Point point;
+
+      int32__2 gamma;
+    };
+    @verbatim (language="comment", text=
+      " add response")
+    struct SolveIK_Response {
+      sensor_msgs::msg::JointState q;
+
+      std_msgs::msg::Bool flag;
+    };
+  };
+};
