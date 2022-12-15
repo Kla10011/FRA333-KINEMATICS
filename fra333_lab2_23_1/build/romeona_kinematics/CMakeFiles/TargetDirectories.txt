@@ -1,9 +1,0 @@
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/install/strip.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/install.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/list_install_components.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/rebuild_cache.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/edit_cache.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/test.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/install/local.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/romeona_kinematics_uninstall.dir
-/home/ronnakon/FRA333-KINEMATICS/fra333_lab2_23_1/build/romeona_kinematics/CMakeFiles/uninstall.dir
