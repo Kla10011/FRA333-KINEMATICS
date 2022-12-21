@@ -1,0 +1,1 @@
+Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/lab4/romeona_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_interfaces

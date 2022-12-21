@@ -1,0 +1,4 @@
+Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control -- -j4 -l4
+Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control -- -j4 -l4
+Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control
+Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control

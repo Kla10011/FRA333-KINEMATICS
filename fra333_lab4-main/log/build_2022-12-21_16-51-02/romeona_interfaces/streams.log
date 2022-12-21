@@ -1,0 +1,60 @@
+[0.057s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_interfaces -- -j4 -l4
+[0.141s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.141s] [35m[1mScanning dependencies of target romeona_interfaces__cpp[0m
+[0.167s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.954s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_generator_c[0m
+[1.064s] [  6%] Built target romeona_interfaces__cpp
+[1.090s] [  9%] [32mBuilding C object CMakeFiles/romeona_interfaces__rosidl_generator_c.dir/rosidl_generator_c/romeona_interfaces/srv/detail/enable_track__functions.c.o[0m
+[1.124s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.129s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.158s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.423s] [ 22%] [32m[1mLinking C shared library libromeona_interfaces__rosidl_generator_c.so[0m
+[1.646s] [ 22%] Built target romeona_interfaces__rosidl_generator_c
+[1.730s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.232s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.344s] [ 29%] [32mBuilding CXX object CMakeFiles/romeona_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/romeona_interfaces/srv/detail/dds_fastrtps/enable_track__type_support.cpp.o[0m
+[2.368s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_cpp[0m
+[2.444s] [ 32%] [32mBuilding CXX object CMakeFiles/romeona_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/romeona_interfaces/srv/enable_track__type_support.cpp.o[0m
+[2.550s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.647s] [ 35%] [32mBuilding CXX object CMakeFiles/romeona_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/romeona_interfaces/srv/detail/enable_track__type_support.cpp.o[0m
+[2.838s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_introspection_c[0m
+[2.872s] [ 38%] [32mBuilding C object CMakeFiles/romeona_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/romeona_interfaces/srv/detail/enable_track__type_support.c.o[0m
+[3.054s] [ 41%] [32m[1mLinking C shared library libromeona_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.233s] [ 41%] Built target romeona_interfaces__rosidl_typesupport_introspection_c
+[3.330s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.591s] [ 48%] [32m[1mLinking CXX shared library libromeona_interfaces__rosidl_typesupport_cpp.so[0m
+[3.763s] [ 48%] Built target romeona_interfaces__rosidl_typesupport_cpp
+[3.885s] [ 51%] [32m[1mLinking CXX shared library libromeona_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.023s] [ 54%] [32m[1mLinking CXX shared library libromeona_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.143s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_c[0m
+[4.143s] [ 54%] Built target romeona_interfaces__rosidl_typesupport_introspection_cpp
+[4.177s] [ 58%] [32mBuilding CXX object CMakeFiles/romeona_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/romeona_interfaces/srv/enable_track__type_support.cpp.o[0m
+[4.254s] [ 61%] [32m[1mLinking CXX shared library libromeona_interfaces__rosidl_typesupport_c.so[0m
+[4.341s] [ 61%] Built target romeona_interfaces__rosidl_typesupport_c
+[4.393s] [ 61%] Built target romeona_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.414s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.860s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.894s] [ 67%] [32mBuilding CXX object CMakeFiles/romeona_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/romeona_interfaces/srv/detail/enable_track__type_support_c.cpp.o[0m
+[5.627s] [ 70%] [32m[1mLinking CXX shared library libromeona_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.868s] [ 70%] Built target romeona_interfaces__rosidl_typesupport_fastrtps_c
+[5.888s] [35m[1mScanning dependencies of target romeona_interfaces[0m
+[5.908s] [ 70%] Built target romeona_interfaces
+[5.927s] [35m[1mScanning dependencies of target romeona_interfaces__py[0m
+[5.950s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.725s] [ 74%] Built target romeona_interfaces__py
+[6.744s] [35m[1mScanning dependencies of target romeona_interfaces__python[0m
+[6.777s] [ 77%] [32mBuilding C object CMakeFiles/romeona_interfaces__python.dir/rosidl_generator_py/romeona_interfaces/srv/_enable_track_s.c.o[0m
+[6.962s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/romeona_interfaces/libromeona_interfaces__python.so[0m
+[7.046s] [ 80%] Built target romeona_interfaces__python
+[7.067s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[7.068s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_c__pyext[0m
+[7.068s] [35m[1mScanning dependencies of target romeona_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.109s] [ 83%] [32mBuilding C object CMakeFiles/romeona_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/romeona_interfaces/_romeona_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.114s] [ 87%] [32mBuilding C object CMakeFiles/romeona_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/romeona_interfaces/_romeona_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.136s] [ 90%] [32mBuilding C object CMakeFiles/romeona_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/romeona_interfaces/_romeona_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.308s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/romeona_interfaces/romeona_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.324s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/romeona_interfaces/romeona_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.339s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/romeona_interfaces/romeona_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.405s] [100%] Built target romeona_interfaces__rosidl_typesupport_c__pyext
+[7.417s] [100%] Built target romeona_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.486s] [100%] Built target romeona_interfaces__rosidl_typesupport_fastrtps_c__pyext

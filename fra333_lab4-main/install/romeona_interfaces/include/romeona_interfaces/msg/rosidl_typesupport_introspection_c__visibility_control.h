@@ -1,0 +1,1 @@
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_interfaces/rosidl_typesupport_introspection_c/romeona_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

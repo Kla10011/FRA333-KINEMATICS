@@ -1,0 +1,15 @@
+[0.056s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_interfaces -- -j4 -l4
+[0.159s] [  3%] Built target romeona_interfaces__cpp
+[0.177s] [ 12%] Built target romeona_interfaces__rosidl_generator_c
+[0.234s] [ 32%] Built target romeona_interfaces__rosidl_typesupport_introspection_c
+[0.235s] [ 32%] Built target romeona_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.235s] [ 41%] Built target romeona_interfaces__rosidl_typesupport_introspection_cpp
+[0.245s] [ 51%] Built target romeona_interfaces__rosidl_typesupport_cpp
+[0.303s] [ 61%] Built target romeona_interfaces__rosidl_typesupport_fastrtps_c
+[0.308s] [ 70%] Built target romeona_interfaces__rosidl_typesupport_c
+[0.355s] [ 70%] Built target romeona_interfaces
+[0.392s] [ 74%] Built target romeona_interfaces__py
+[0.442s] [ 80%] Built target romeona_interfaces__python
+[0.497s] [ 87%] Built target romeona_interfaces__rosidl_typesupport_c__pyext
+[0.500s] [100%] Built target romeona_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.501s] [100%] Built target romeona_interfaces__rosidl_typesupport_fastrtps_c__pyext

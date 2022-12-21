@@ -1,0 +1,66 @@
+[0.062s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/lab4/romeona_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control
+[0.315s] -- The C compiler identification is GNU 9.4.0
+[0.506s] -- The CXX compiler identification is GNU 9.4.0
+[0.512s] -- Check for working C compiler: /usr/bin/cc
+[0.637s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.640s] -- Detecting C compiler ABI info
+[0.760s] -- Detecting C compiler ABI info - done
+[0.787s] -- Detecting C compile features
+[0.787s] -- Detecting C compile features - done
+[0.793s] -- Check for working CXX compiler: /usr/bin/c++
+[0.935s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.936s] -- Detecting CXX compiler ABI info
+[1.074s] -- Detecting CXX compiler ABI info - done
+[1.095s] -- Detecting CXX compile features
+[1.096s] -- Detecting CXX compile features - done
+[1.103s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.106s] -- Found ament_cmake_core: 0.9.11 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[1.148s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.148s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.495s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.711s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.764s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.936s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.091s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.173s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.176s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.178s] -- Looking for pthread.h
+[2.306s] -- Looking for pthread.h - found
+[2.310s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.458s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.458s] -- Looking for pthread_create in pthreads
+[2.577s] -- Looking for pthread_create in pthreads - not found
+[2.577s] -- Looking for pthread_create in pthread
+[2.704s] -- Looking for pthread_create in pthread - found
+[2.706s] -- Found Threads: TRUE  
+[3.190s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[3.470s] -- Configuring done
+[3.477s] -- Generating done
+[3.481s] -- Build files have been written to: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control
+[3.500s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/lab4/romeona_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control
+[3.505s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control -- -j4 -l4
+[3.603s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control -- -j4 -l4
+[3.674s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control
+[3.688s] -- Install configuration: ""
+[3.689s] -- Execute custom install script
+[3.690s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/share/romeona_control/environment/pythonpath.sh
+[3.708s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/share/romeona_control/environment/pythonpath.dsv
+[3.729s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/lib/python3.8/site-packages/romeona_control/Jacobian.py
+[3.749s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/lib/python3.8/site-packages/romeona_control/__init__.py
+[3.767s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/lib/romeona_control/tracker.py
+[3.783s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/lib/romeona_control/generator.py
+[3.802s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/lib/romeona_control/scheduler.py
+[3.820s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/lib/romeona_control/proximity_detector.py
+[3.834s] -- Symlinking: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_control/lib/romeona_control/marker.py
+[3.854s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[3.855s]   ament_cmake_symlink_install_directory() can't find
+[3.855s]   '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/lab4/romeona_control/launch'
+[3.855s] Call Stack (most recent call first):
+[3.855s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_directory)
+[3.855s]   cmake_install.cmake:41 (include)
+[3.855s] 
+[3.855s] 
+[3.858s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control

@@ -1,0 +1,8 @@
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/lab4/romeona_control/launch'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+
+

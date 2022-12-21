@@ -1,0 +1,6 @@
+ros2 run lab3_control_robot trajectory_gen.py
+sudo chown ronnakon /dev/ttyACM0
+ros2 run xicro_pkg xicro_node_read_imu_ID_3_arduino.py /dev/ttyACM0
+sudo chmod 777 *
+ros2 run ros2_control_demo_3r_robot trajectory_gen.py
+ros2 launch ros2_control_demo_3r_robot dummy_gazebo.launch.py

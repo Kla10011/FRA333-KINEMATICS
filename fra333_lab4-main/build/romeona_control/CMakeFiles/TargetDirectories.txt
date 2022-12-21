@@ -1,0 +1,9 @@
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/install/strip.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/install/local.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/install.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/list_install_components.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/rebuild_cache.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/edit_cache.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/test.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/romeona_control_uninstall.dir
+/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_control/CMakeFiles/uninstall.dir

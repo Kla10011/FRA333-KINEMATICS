@@ -1,0 +1,39 @@
+[0.056s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description -- -j4 -l4
+[0.106s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.106s] -- Found ament_cmake_core: 0.9.11 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[0.142s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.539s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.551s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.931s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.174s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.400s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.486s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.491s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.091s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[2.384s] -- Configuring done
+[2.396s] -- Generating done
+[2.399s] -- Build files have been written to: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description
+[2.558s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description -- -j4 -l4
+[2.776s] Invoking command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description
+[2.810s] -- Install configuration: ""
+[2.811s] -- Execute custom install script
+[2.816s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/environment/pythonpath.sh
+[2.817s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/environment/pythonpath.dsv
+[2.820s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/lib/python3.8/site-packages/romeona_description/__init__.py
+[2.823s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/description/example_gazebo.xacro
+[2.829s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/description/example_include.xacro
+[2.830s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/description/example_robot.urdf.xacro
+[2.833s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/launch/dummy_gazebo.launch.py
+[2.837s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/config/description_rviz.rviz
+[2.839s] -- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/config/myrobot_controllers.yaml
+[2.840s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[2.840s]   ament_cmake_symlink_install_directory() can't find
+[2.840s]   '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/lab4/romeona_description/scripts'
+[2.840s] Call Stack (most recent call first):
+[2.840s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_directory)
+[2.841s]   cmake_install.cmake:41 (include)
+[2.841s] 
+[2.841s] 
+[2.850s] Invoked command in '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_description

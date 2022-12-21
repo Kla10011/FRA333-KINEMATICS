@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from romeona_interfaces/srv/EnableTrack.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Bool.idl"
+
+module romeona_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " add request here")
+    struct EnableTrack_Request {
+      std_msgs::msg::Bool s;
+    };
+    @verbatim (language="comment", text=
+      " add response here")
+    struct EnableTrack_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/build/romeona_interfaces/rosidl_generator_py/romeona_interfaces/libromeona_interfaces__python.so" "TARGETS" "romeona_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/environment/pythonpath.sh
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/lib/python3.8/site-packages/romeona_description/__init__.py
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/description/example_gazebo.xacro
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/description/example_include.xacro
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/description/example_robot.urdf.xacro
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/launch/dummy_gazebo.launch.py
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/config/description_rviz.rviz
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/config/myrobot_controllers.yaml
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/meshes/link_0.stl
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/meshes/link_1.stl
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/meshes/link_2.stl
+-- Up-to-date symlink: /home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/install/romeona_description/share/romeona_description/meshes/link_3.stl
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/ronnakon/FRA333-KINEMATICS/fra333_lab4-main/lab4/romeona_description/romeona_control'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+
+
